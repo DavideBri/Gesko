@@ -21,7 +21,7 @@ layout: default
     <ul>
         {% for post in site.posts %}
         <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></li>
         {% endfor %}
     </ul>
