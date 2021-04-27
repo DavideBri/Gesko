@@ -39,7 +39,7 @@ html[data-theme="light"] {
 	--medium-text-color: #555;
 	--main-text-color: #333;
 	--dark-text-color: #111;
-	--link-color: #8866af;
+	--link-color: #df0505;
 
 	background-color: #f2f2f2;
 
@@ -97,9 +97,9 @@ html[data-theme="dark"] {
 	--medium-text-color: #888;
 	--main-text-color: #ddd;
 	--dark-text-color: #eee;
-	--link-color: #8866af;
+	--link-color: #df0505;
 
-	background-color: #121212;
+	background-color: #0d1117;
 
 	#theme-toggle div {
 		position: relative;
@@ -353,7 +353,6 @@ main {
 	flex-direction: row;
 	justify-content: space-between;
 }
-
 
 @media screen and (max-width: 45rem) {
 	header li {

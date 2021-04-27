@@ -1,19 +1,19 @@
-site: P0WEX
+site: Asko
 url: #yoururl
-title: P0WEX
-description: 
+title: Asko
+description: Simple and minimalistic jekyll blogging theme.
 googlewebfonts: Fira+Code:wght@400;500;700
 twitter:
-  username: P0Wex
+  username: #yourusername
   card: summary
   creator: #yourusername
 author:
-  twitter: P0Wex
+  twitter: #yourusername
   name: #yourusername
   avatar:
-  email: asdadsasd@gmail.com
+  email: #youremail
   url: #yoururl
-permalink: pretty 
+permalink: pretty
 
 baseurl: ""
 
