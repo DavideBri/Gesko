@@ -38,10 +38,10 @@ plugins:
 collections:
   pages:
     output: true
-    permalink: {{ site.baseurl }}/:name
+    permalink: ../:name
   posts:
     output: true
-    permalink: {{ site.baseurl }}/:year/:month/:day/:slug
+    permalink: ../:year/:month/:day/:slug
   
 defaults:
   -
