@@ -1,7 +1,6 @@
 site: P0WEX
 url: #yoururl
 title: P0WEX
-description: personal blog
 googlewebfonts: Fira+Code:wght@400;500;700
 twitter:
   username: #yourusername
@@ -9,9 +8,9 @@ twitter:
   creator: #yourusername
 author:
   twitter: #yourusername
-  name: #yourusername
+  name: P0WEX
   avatar:
-  email: #youremail
+  email: bdasdas@gmail.com
   url: #yoururl
 permalink: pretty
 

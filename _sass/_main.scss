@@ -99,7 +99,7 @@ html[data-theme="dark"] {
 	--dark-text-color: #eee;
 	--link-color: #8866af;
 
-	background-color: ##121212;
+	background-color: #121212;
 
 	#theme-toggle div {
 		position: relative;
@@ -352,6 +352,10 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+.highlight { 
+	background-color: #FBC300; 
 }
 
 @media screen and (max-width: 45rem) {
