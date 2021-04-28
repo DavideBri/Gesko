@@ -3,7 +3,7 @@ layout: post
 title: Displaying GitHub Gists in Jekyll sites
 description: A Liquid tag for Jekyll sites that allows embedding Gists
 summary: A Liquid tag for Jekyll sites that allows embedding Gists.
-tags: [jekyll, coding]
+tags: jekyll coding
 ---
 
 Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.
