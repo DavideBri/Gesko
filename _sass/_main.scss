@@ -327,26 +327,6 @@ main {
 	flex-direction: column;
 }
 
-.github-corner:hover .octo-arm {
-	animation: octocat-wave 560ms ease-in-out;
-}
-
-@keyframes octocat-wave {
-	0%,
-	100% {
-		transform: rotate(0);
-	}
-
-	20%,
-	60% {
-		transform: rotate(-25deg);
-	}
-
-	40%,
-	80% {
-		transform: rotate(10deg);
-	}
-}
 
 .flex-row-between {
 	display: flex;
@@ -354,6 +334,25 @@ main {
 	justify-content: space-between;
 }
 
+.social-footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  position: initial;
+
+  .social-footer-icons {
+     
+    .fa {
+      font-size: 1.3rem;
+      color: #a9a9a9;
+
+      &:hover {
+        color: darken(#a9a9a9, 25%);
+        transition: color 0.3s ease-in;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 45rem) {
 	header li {
