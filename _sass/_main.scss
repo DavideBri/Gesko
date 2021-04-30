@@ -35,7 +35,7 @@ html {
 html,
 html[data-theme="light"] {
 	--very-light-text-color: rgb(236, 237, 238);
-	--light-text-color: #bbb;
+	--light-text-color: #887a97;
 	--medium-text-color: #555;
 	--main-text-color: #333;
 	--dark-text-color: #111;
@@ -93,13 +93,13 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
 	--very-light-text-color: #333;
-	--light-text-color: #444;
+	--light-text-color: #887a97;
 	--medium-text-color: #888;
 	--main-text-color: #ddd;
 	--dark-text-color: #eee;
 	--link-color: #8866af;
 
-	background-color: #121212;
+	background-color: #292929;
 
 	#theme-toggle div {
 		position: relative;
