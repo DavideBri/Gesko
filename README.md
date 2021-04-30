@@ -1,5 +1,4 @@
 # Jekyll Blog
----
 
 Simple and minimal Jekyll blog. 
 Forked from [Asko](https://github.com/manuelmazzuola/asko).
