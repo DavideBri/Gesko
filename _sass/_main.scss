@@ -40,9 +40,12 @@ html[data-theme="light"] {
 	--main-text-color: #333;
 	--dark-text-color: #393e46;
 	--link-color: #314c82;
+	--selection-color: #F8FA70;
+	--selection-text: #333;
 
 	background-color: #EEEEEE;
 
+	
 
 	#theme-toggle div {
 		position: relative;
@@ -99,9 +102,10 @@ html[data-theme="dark"] {
 	--main-text-color: #EAEAEA;
 	--dark-text-color: #eee;
 	--link-color: #FF2957;
-
-	background-color: #2d292d;
+	--selection-color: #F8FA70;
+	--selection-text: #333;
 	
+	background-color: #2d292d;
 
 	#theme-toggle div {
 		position: relative;
@@ -160,7 +164,7 @@ body {
 
 a {
 	color: var(--link-color);
-	
+	text-decoration: none;
 }
 
 .post p {
@@ -173,7 +177,7 @@ a {
 
 code,
 pre {
-	background: var(--very-light-text-color);
+	
 }
 
 code {
@@ -181,7 +185,8 @@ code {
 }
 
 pre code {
-	border: none;
+	border: none none none solid;
+	border-color: #0f0f0f;
 }
 
 pre {
@@ -390,4 +395,9 @@ section {
 
 figcaption {
 	font-size: smaller;
+}
+
+::selection {
+background-color: var(--selection-color);
+color: var(--selection-text);
 }
