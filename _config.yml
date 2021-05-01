@@ -1,8 +1,9 @@
 site: P0WEX
 url: #yoururl
 title: P0WEX
-description: just a blog
-googlewebfonts: Fira+Code:wght@400;500;700
+description: >-
+  just a minimalist, personal blog
+# googlewebfonts: Fira+Code:wght@400;500;700
 twitter:
   username: P0Wex
   card: summary
@@ -21,6 +22,12 @@ highlighter: rouge
 
 exclude:
   - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
   
 compress_html:
   clippings: all
