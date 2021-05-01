@@ -4,6 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
 <section id="intro">
     <div class="flex-row-between">
         <h1>Hey there 👋</h1>
@@ -11,11 +12,23 @@ layout: default
             <div></div>
         </button>
     </div>
+    <div class="bio">
     <p>I'm P0WEX, here you can find, some post that I wrote about tech, cryptocurrency, software and also my hobbie such as elettronics and mechanical keyboard. I started writing this articles in the first place, because I want to track all my <b>thoughts / experiences / projects </b> in one place and maybe see of they change with the years. <br>
     </p>
-    
+    </div>
 </section>
+
 <!-- TODO: Add a search bar for the posts -->
+<div class="search-article">
+      <label for="search-input" aria-hidden="true">
+        <!-- Magnifier -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </label>
+
+     <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
+    <ul id="search-results"></ul>
+</div>
+
 <section class="posts">
     <h2>BLOG</h2>
     <ul>
@@ -27,11 +40,3 @@ layout: default
     </ul>
 </section>
 
-<footer class="social-footer">
-  <div class="social-footer-icons">
-      <a href="https://github.com/P0WEX" title="Github profile, nothing much there.." target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="{{site.url}}/atom.xml" title="Are you so interested in me??" target="_blank" rel="noopener noreferrer"><i class="fa fa-rss" aria-hidden="true"></i></a>
-      <a href="https://github.com/P0WEX/P0WEX.github.io" title="Source of my website" target="_blank" rel="noopener noreferrer"><i class="fa fa-code" aria-hidden="true"></i></a>
-      <a href="https://bettermoneyhabits.bankofamerica.com/en/saving-budgeting/ways-to-save-money" title="<3" target="_blank" rel="noopener noreferrer"><i class="fa fa-btc" aria-hidden="true"></i></a>
-  </div>
-</footer>
