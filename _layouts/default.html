@@ -11,8 +11,21 @@ layout: compress
     {% include anchor_headings.html html=content anchorBody="#" %}
   </main>
 
-
-
+  {% if page.url == '/' %}
+  <script src="/assets/js/simple-jekyll-search.js"></script>
+  <script type="text/javascript">
+  var sjs = SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('search-results'),
+  json: '/search.json',
+  searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+  noResultsText: 'No results found..',
+  limit: 10,
+  fuzzy: true,
+  })
+  </script>
+  {% endif %}
+  
   <script>
     function setTheme(theme) {
       if (theme === "dark") {
@@ -46,7 +59,18 @@ layout: compress
   </script>
 
 
+
 </body>
+
+<footer class="social-footer">
+  <div class="social-footer-icons">
+      <a href="https://github.com/P0WEX" title="Github profile, nothing much there.." target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="{{site.url}}/atom.xml" title="Are you so interested in me??" target="_blank" rel="noopener noreferrer"><i class="fa fa-rss" aria-hidden="true"></i></a>
+      <a href="https://github.com/P0WEX/P0WEX.github.io" title="Source of my website" target="_blank" rel="noopener noreferrer"><i class="fa fa-code" aria-hidden="true"></i></a>
+      <a href="https://bettermoneyhabits.bankofamerica.com/en/saving-budgeting/ways-to-save-money" title="<3" target="_blank" rel="noopener noreferrer"><i class="fa fa-btc" aria-hidden="true"></i></a>
+  </div>
+</footer>
+
 
 </html>
 
