@@ -34,15 +34,15 @@ html {
 
 html,
 html[data-theme="light"] {
-	--very-light-text-color: rgb(236, 237, 238);
-	--light-text-color: #887a97;
+	--very-light-text-color: rgb(222, 222, 222);
+	--light-text-color: #126e82;
 	--medium-text-color: #555;
 	--main-text-color: #333;
-	--dark-text-color: #111;
-	--link-color: #8866af;
+	--dark-text-color: #393e46;
+	--link-color: #314c82;
 
-	background-color: #f2f2f2;
-	transition: background 0.2s;
+	background-color: #EEEEEE;
+
 
 	#theme-toggle div {
 		position: relative;
@@ -94,14 +94,14 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
 	--very-light-text-color: #333;
-	--light-text-color: #887a97;
-	--medium-text-color: #888;
-	--main-text-color: #ddd;
+	--light-text-color: #c4bbf0;
+	--medium-text-color: #52057b;
+	--main-text-color: #EAEAEA;
 	--dark-text-color: #eee;
-	--link-color: #8866af;
+	--link-color: #FF2957;
 
-	background-color: #292929;
-	transition: background 0.2s;
+	background-color: #2d292d;
+	
 
 	#theme-toggle div {
 		position: relative;
@@ -152,7 +152,7 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: "Fira Code", monospace;
+	font-family: monospace;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
@@ -160,9 +160,9 @@ body {
 
 a {
 	color: var(--link-color);
-	text-decoration: underline;
+	
 }
-f
+
 .post p {
 	margin: 0.5rem 0;
 }
@@ -312,12 +312,13 @@ time {
 }
 
 .post > h1.title {
-	margin-top: 0rem;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
 .post > time {
-	margin-bottom: 2rem;
+	margin-bottom: 0;
+	margin-top: 3rem;
 }
 
 main {
