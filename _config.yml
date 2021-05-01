@@ -16,9 +16,11 @@ author:
   url: #yoururl
 permalink: pretty 
 
-baseurl: ""
 
+markdown: kramdown
 highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 
 exclude:
   - .jekyll-cache
