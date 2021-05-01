@@ -42,6 +42,7 @@ html[data-theme="light"] {
 	--link-color: #8866af;
 
 	background-color: #f2f2f2;
+	transition: background 0.2s;
 
 	#theme-toggle div {
 		position: relative;
@@ -100,6 +101,7 @@ html[data-theme="dark"] {
 	--link-color: #8866af;
 
 	background-color: #292929;
+	transition: background 0.2s;
 
 	#theme-toggle div {
 		position: relative;
@@ -166,7 +168,7 @@ f
 }
 
 .meta {
-	margin: 2rem 0;
+	margin: 1.4rem 0;
 }
 
 code,
@@ -310,7 +312,7 @@ time {
 }
 
 .post > h1.title {
-	margin-top: 1.5rem;
+	margin-top: 0rem;
 	margin-bottom: 0;
 }
 
