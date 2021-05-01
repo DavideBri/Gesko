@@ -19,6 +19,12 @@ Now deployable on Github Pages, with:
 [x] Sass
 [x] Ultra fast (Only ~5kb of CSS)
 
+## Backlogs
+
+[ ] Improve SEO score on [Lighthouse](lighthouse_test.png) 
+[ ] Next & Previous Post
+
+
 ## Installation
 
 Run local server:
