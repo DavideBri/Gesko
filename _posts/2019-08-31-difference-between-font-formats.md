@@ -26,7 +26,7 @@ Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee 
 
 <kbd>alt</kbd>
 
-VHS roof party waistcoat cold-pressed, `street art wolf` master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.
+VHS roof party waistcoat cold-pressed, `snippet.CodeExample();` master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.
 
 ```java
 fun main(args: Array<String>) {
