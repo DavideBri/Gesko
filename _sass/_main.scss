@@ -177,21 +177,25 @@ a {
 
 code,
 pre {
-	border-style: none none none solid;
-	border-color: var(--light-text-color);
+
 }
 
 code {
-	padding: 0.2rem;
+	padding: 0.1rem;
+	background-color: var(--very-light-text-color);
+	color: var(--light-text-color);
 }
 
 pre code {
-	
+	background-color: unset;
+	color: unset;
 }
 
 pre {
 	padding: 0.8rem;
 	white-space: pre-wrap;
+	border-style: none none none solid;
+	border-color: var(--light-text-color);
 }
 
 img {
@@ -428,7 +432,7 @@ color: var(--selection-text);
     background-color: rgba(128, 128, 128, 0.1);
     border: 1px solid rgba(128, 128, 128, 0.1);
     &::-webkit-input-placeholder {
-      color: #0f0f0f;
+      color: #808080;
     }
     &::-webkit-search-decoration,
     &::-webkit-search-results-decoration {
