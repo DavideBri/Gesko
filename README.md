@@ -9,23 +9,25 @@ Now easly deployable on Github Pages, with:
 
 ### Features
 
-[ ]Responsive Design
-[ ] Dark/Ligh theme
-[ ] Inline CSS
-[ ] Anchor headings
-[ ] Tags & Tag pages
-[ ] 404 page
-[ ] Robots.txt
-[ ] Atom & Json feeds
-[ ] Sass
-[ ] Ultra fast (Only ~5kb of CSS)
-[ ] PageSpeed and w3Validator tests PASSED!
+- [x]Responsive Design
+- [x] Dark/Ligh theme
+- [x] Inline CSS
+- [x] Anchor headings
+- [x] Tags & Tag pages
+- [x] 404 page
+- [x] Robots.txt
+- [x] Atom & Json feeds
+- [x] Sass
+- [x] Ultra fast (Only ~5kb of CSS)
+- [x] PageSpeed and w3Validator tests PASSED!
 
 
 ## Backlogs
 
 - [ ] Improve SEO score on [Lighthouse](lighthouse_test.png) 
 - [ ] Next & Previous Post
+- [ ] Comments (?)
+- [ ] Search bar
 
 
 ## Installation
