@@ -20,6 +20,7 @@ Now easly deployable on Github Pages, with:
 - [x] Sass
 - [x] Ultra fast (Only ~5kb of CSS)
 - [x] PageSpeed and w3Validator tests PASSED!
+- [x] Search bar
 
 
 ## Backlogs
@@ -27,7 +28,6 @@ Now easly deployable on Github Pages, with:
 - [ ] Improve SEO score on [Lighthouse](lighthouse_test.png) 
 - [ ] Next & Previous Post
 - [ ] Comments (?)
-- [ ] Search bar
 
 
 ## Installation
