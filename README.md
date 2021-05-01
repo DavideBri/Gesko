@@ -4,7 +4,8 @@ Simple and minimal Jekyll blog.
 Forked from [Asko](https://github.com/manuelmazzuola/asko).
 Inspired from [Klisé](https://github.com/piharpi/jekyll-klise)
 
-Now deployable on Github Pages, with:
+Both had some issues with Github Pages, so I decided to make it work by losing as few features as possible.
+Now easly deployable on Github Pages, with:
 
 ### Features
 
@@ -12,7 +13,7 @@ Now deployable on Github Pages, with:
 [x] Dark/Ligh theme
 [x] Inline CSS
 [x] Anchor headings
-[x] Tags & Tag pages
+[x] Tags & Tag pages ( Just create a folder for each tag )
 [x] 404 page
 [x] Robots.txt
 [x] Atom & Json feeds
