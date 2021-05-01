@@ -6,3 +6,6 @@
 4. Push your own repo
 5. Create PR, describe your changes
 6. Thank You
+
+Colors used for light theme [here](https://colorhunt.co/palette/282654)
+Colors used for dark theme [here](https://colorhunt.co/palette/282657)
