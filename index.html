@@ -7,7 +7,7 @@ layout: default
 <section id="intro">
     <div class="flex-row-between">
         <h1>Hey there 👋</h1>
-        <button name="tema" id="theme-toggle" onclick="modeSwitcher()">
+        <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
             <div></div>
         </button>
     </div>
@@ -25,5 +25,13 @@ layout: default
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></li>
         {% endfor %}
     </ul>
+</section>
 
-
+<footer class="social-footer">
+  <div class="social-footer-icons">
+      <a href="https://github.com/P0WEX" title="Github profile, nothing much there.." target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="{{site.url}}/atom.xml" title="Are you so interested in me??" target="_blank" rel="noopener noreferrer"><i class="fa fa-rss" aria-hidden="true"></i></a>
+      <a href="https://github.com/P0WEX/P0WEX.github.io" title="Source of my website" target="_blank" rel="noopener noreferrer"><i class="fa fa-code" aria-hidden="true"></i></a>
+      <a href="https://bettermoneyhabits.bankofamerica.com/en/saving-budgeting/ways-to-save-money" title="<3" target="_blank" rel="noopener noreferrer"><i class="fa fa-btc" aria-hidden="true"></i></a>
+  </div>
+</footer>

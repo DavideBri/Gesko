@@ -7,13 +7,13 @@ layout: compress
 {% include head.html %}
 
 <body>
-  <main role="main">
+  <main>
     {% include anchor_headings.html html=content anchorBody="#" %}
   </main>
 
 
 
-  <script type="text/javascript">
+  <script>
     function setTheme(theme) {
       if (theme === "dark") {
         document.documentElement.setAttribute('data-theme', 'dark');
@@ -47,16 +47,6 @@ layout: compress
 
 
 </body>
-
-  <footer class="social-footer">
-    <div class="social-footer-icons">
-        <a href="https://github.com/P0WEX" title="Github profile, nothing much there.." target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="{{site.url}}/atom.xml" title="Are you so interested in me??" target="_blank" rel="noopener noreferrer"><i class="fa fa-rss" aria-hidden="true"></i></a>
-        <a href="https://github.com/P0WEX/P0WEX.github.io" title="Source of my website" target="_blank" rel="noopener noreferrer"><i class="fa fa-code" aria-hidden="true"></i></a>
-        <a href="https://bettermoneyhabits.bankofamerica.com/en/saving-budgeting/ways-to-save-money" title="<3"target="_blank" rel="noopener noreferrer"><i class="fa fa-btc" aria-hidden="true"></i></a>
-    </div>
-  </footer >
-
 
 </html>
 
