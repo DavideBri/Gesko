@@ -32,7 +32,7 @@ Now easly deployable on Github Pages, with:
 
 ## Screenshot
 
-![light-theme](https://www.github.com/p0wex/Gesko/light-theme.png)
+ [light-theme](https://www.github.com/p0wex/Gesko/light-theme.png)
 ![dark-theme](https://www.github.com/p0wex/Gesko/dark-theme.png)
 
 ## Installation
