@@ -70,6 +70,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "tag"
+    values:
+      layout: "tag"
 
 relative_links:
   enabled:     true
