@@ -1,4 +1,4 @@
-# Jekyll Blog
+# Jesko
 
 Simple and minimal Jekyll blog. 
 Forked from [Asko](https://github.com/manuelmazzuola/asko).
@@ -29,6 +29,11 @@ Now easly deployable on Github Pages, with:
 - [ ] Next & Previous Post
 - [ ] Comments (?)
 
+
+## Screenshot
+
+![light-theme](light-theme.png)
+![dark-theme](dark-theme.png)
 
 ## Installation
 
