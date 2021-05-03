@@ -40,7 +40,7 @@ Now easly deployable on Github Pages, with:
 Run local server:
 
 ```bash
-$ git clone https://github.com/P0WEX/P0WEX.github.io.git
+$ git clone https://github.com/P0WEX/Gesko.git
 $ cd P0WEX.github.io
 $ bundle install
 $ bundle exec jekyll serve
