@@ -41,7 +41,7 @@ Run local server:
 
 ```bash
 $ git clone https://github.com/P0WEX/Gesko.git
-$ cd P0WEX.github.io
+$ cd Gesko
 $ bundle install
 $ bundle exec jekyll serve
 ```
