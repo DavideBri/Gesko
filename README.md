@@ -32,8 +32,8 @@ Now easly deployable on Github Pages, with:
 
 ## Screenshot
 
-![light-theme](light-theme.png)
-![dark-theme](dark-theme.png)
+![light-theme](https://www.github.com/p0wex/Gesko/light-theme.png)
+![dark-theme](https://www.github.com/p0wex/Gesko/dark-theme.png)
 
 ## Installation
 
