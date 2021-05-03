@@ -9,7 +9,7 @@ Now easly deployable on Github Pages, with:
 
 ### Features
 
-- [x]Responsive Design
+- [x] Responsive Design
 - [x] Dark/Ligh theme
 - [x] Inline CSS
 - [x] Anchor headings
