@@ -1,18 +1,17 @@
-site: P0WEX
+site: Gesko
 url: #yoururl
 title: P0WEX
 description: >-
   just a minimalist, personal blog
-# googlewebfonts: Fira+Code:wght@400;500;700
 twitter:
-  username: P0Wex
-  card: summary
+  username: #yourusername
+  card: 
   creator: #yourusername
 author:
-  twitter: 
-  name: #p0wex
-  avatar:
-  email: 
+  twitter: #yourusername
+  name: #yourname
+  avatar: #youravatar
+  email: #youremail
   url: #yoururl
 permalink: pretty 
 
