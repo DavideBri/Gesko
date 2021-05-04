@@ -17,9 +17,9 @@ author:
   email: your-email@email.com # email adress
 
 # URL settings
-url: "https://p0wex.github.io/Gesko" #
-baseurl:
-permalink: 
+url: "https://p0wex.github.io/" #
+baseurl: "/Gesko" # leave blank if dont need
+permalink: "https://p0wex.github.io/Gesko"
 google_analytics: # leave it blank if not wish
 permalink: pretty 
 
