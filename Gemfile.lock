@@ -63,7 +63,7 @@ GEM
     unicode-display_width (1.7.0)
 
 PLATFORMS
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   jekyll
