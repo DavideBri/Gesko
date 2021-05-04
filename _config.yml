@@ -54,20 +54,23 @@ collections:
     permalink: /:year/:month/:day/:slug
   
 defaults:
-  - scope:
-    path: ""
+  -
+    scope:
+      path: ""
     values:
-    layout: "default"
-  - scope:
+      layout: "default"
+  -
+    scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  - scope:
-    path: ""
-    type: "posts"
+  -
+    scope:
+      path: ""
+      type: "posts"
     values:
-    layout: "post"
+      layout: "post"
 
 relative_links:
   enabled:     true
