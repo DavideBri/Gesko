@@ -3,6 +3,7 @@ url: #yoururl
 title: P0WEX
 description: >-
   just a minimalist, personal blog
+googlewebfonts: Fira+Code:wght@400;500;700
 twitter:
   username: #yourusername
   card: 
@@ -53,29 +54,20 @@ collections:
     permalink: /:year/:month/:day/:slug
   
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+    path: ""
     values:
-      layout: "default"
-  -
-    scope:
+    layout: "default"
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+    path: ""
+    type: "posts"
     values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "tag"
-    values:
-      layout: "tag"
+    layout: "post"
 
 relative_links:
   enabled:     true
