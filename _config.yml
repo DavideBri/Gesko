@@ -1,19 +1,26 @@
 site: Gesko
-url: #yoururl
-title: P0WEX
+title: Gesko
 description: >-
   just a minimalist, personal blog
 googlewebfonts: Fira+Code:wght@400;500;700
-twitter:
-  username: #yourusername
-  card: 
-  creator: #yourusername
+lang: en-US
+timezone: Rome
+repo: https://github.com/p0wex/Gesko # site repo [optional]
+mode: dark # default theme "dark" | "light"
+
 author:
-  twitter: #yourusername
-  name: #yourname
-  avatar: #youravatar
-  email: #youremail
-  url: #yoururl
+  name: p0wex
+  bio: just a minimalist, personal blog
+  username: p0wex # general username
+  github: p0wex # github username
+  twitter: P0Wex # twitter username
+  email: your-email@email.com # email adress
+
+# URL settings
+url: "https://p0wex.github.io/Gesko" #
+baseurl:
+permalink: 
+google_analytics: # leave it blank if not wish
 permalink: pretty 
 
 
@@ -37,8 +44,8 @@ compress_html:
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  sass_dir: _sass
+  style: compressed
 
 plugins:
   - jekyll-paginate
