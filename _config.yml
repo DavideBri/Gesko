@@ -18,9 +18,8 @@ author:
 
 # URL settings
 url: "https://p0wex.github.io/" #
-baseurl: "/Gesko" # leave blank if dont need
+baseurl: "/Gesko" # leave blank if not wishd
 permalink: "https://p0wex.github.io/Gesko"
-google_analytics: # leave it blank if not wish
 permalink: pretty 
 
 
