@@ -1,7 +1,7 @@
 *,
 :after,
 :before {
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	background-color: inherit;
 	color: inherit;
 	margin: 0;
@@ -168,7 +168,7 @@ a {
 }
 
 .post p {
-	margin: 0.5rem 0;
+	margin: 1rem 0;
 }
 
 .meta {
@@ -448,3 +448,50 @@ color: var(--selection-text);
     text-align: center;
   }
 }
+
+.post-nav {
+  display: flex;
+  position: relative;
+  margin-top: 0;
+  border-top: 1px solid var(--medium-text-color);
+  line-height: 1.4;
+
+  .post-nav-item {
+    border-bottom: 0;
+    padding-bottom: 10px;
+
+    .post-title {
+      color: #ddd;
+    }
+
+    &:hover,
+    &:focus {
+      .post-title {
+        color: var(--link-color);
+        opacity: 0.9;
+      }
+    }
+
+    .nav-arrow {
+      font-size: 17px;
+      color: #ddd;
+      margin-bottom: 3px;
+    }
+
+    width: 50%;
+    padding-top: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    &:nth-child(odd) {
+      padding-left: 0;
+      padding-right: 20px;
+    }
+
+    &:nth-child(even) {
+      text-align: right;
+      padding-right: 0;
+      padding-left: 20px;
+    }
+  }
+} 	
