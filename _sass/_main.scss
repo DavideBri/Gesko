@@ -1,7 +1,7 @@
 *,
 :after,
 :before {
-	/*box-sizing: border-box;*/
+	box-sizing: border-box;
 	background-color: inherit;
 	color: inherit;
 	margin: 0;
@@ -39,11 +39,12 @@ html[data-theme="light"] {
 	--medium-text-color: #555;
 	--main-text-color: #333;
 	--dark-text-color: #393e46;
-	--link-color: #314c82;
+	--link-color: rgb(0, 63, 255);
+	
 	--selection-color: #fffba0;
 	--selection-text: #333;
 
-	background-color: #EEEEEE;
+	background-color: rgb(255, 255, 255);
 
 	
 
@@ -101,11 +102,11 @@ html[data-theme="dark"] {
 	--medium-text-color: #52057b;
 	--main-text-color: #EAEAEA;
 	--dark-text-color: #eee;
-	--link-color: #FF2957;
+	--link-color: rgb(255, 41, 87);
 	--selection-color: #fffba0;
 	--selection-text: #333;
 	
-	background-color: #2d292d;
+	background-color: rgb(19, 20, 24);
 
 	#theme-toggle div {
 		position: relative;
