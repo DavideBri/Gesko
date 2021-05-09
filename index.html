@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-
-
 <section id="intro">
     <div class="flex-row-between">
         <h1>Hi 👋</h1>
@@ -11,30 +9,40 @@ layout: default
         </button>
     </div>
     <div class="bio">
-     Maecenas euismod, ante eu mollis tempus, justo tellus tempus dui, non suscipit tellus diam vel ipsum. Phasellus euismod auctor condimentum. Aenean at ex dolor. Praesent eget venenatis erat, sit amet cursus nulla. Vestibulum rutrum, turpis id aliquam sagittis.
-    </p>
+        Maecenas euismod, ante eu mollis tempus, justo tellus tempus dui, non suscipit tellus diam vel ipsum.
+        Phasellus euismod auctor condimentum. Aenean at ex dolor. Praesent eget venenatis erat, sit amet cursus
+        nulla. Sestibulum rutrum, turpis id aliquam sagittis. <a href="{{ site.baseurl }}/about"> About me</a>
+        </p>
     </div>
+
+
 </section>
 
 
-<div class="search-article">
-      <label for="search-input" aria-hidden="true">
-        <!-- Magnifier -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-      </label>
 
-     <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
+<div class="search-article">
+    <label for="search-input" aria-hidden="true">
+        <!-- Magnifier -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+            stroke="rgba(128,128,128,0.8)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="feather feather-search">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </label>
+
+    <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
     <ul id="search-results"></ul>
 </div>
 
-<section class="posts">
+<section class="posts" id="Blog">
     <h2>BLOG</h2>
     <ul>
         {% for post in site.posts %}
         <li>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></li>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+        </li>
         {% endfor %}
     </ul>
 </section>
-
