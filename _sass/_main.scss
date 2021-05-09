@@ -502,14 +502,7 @@ color: #333;
   }
 } 	
 
-.header-row {
-	display: flex;
-	flex-basis: auto;
-	border-bottom: 2px double var(--light-text-color);
- 	line-height: 1.4;
-	padding-bottom: 10px;
-}
-// todo!
+
 .tags ul {
 	list-style: none;
     display: grid;
@@ -532,12 +525,11 @@ $link-color: var(--link-color);
 .timeline {
   position: center;
   width: 650px;
-  margin: 0px auto;
+  margin: -6em auto;
   padding: 1px;
   list-style-type: none;
   @media(max-width: 860px) {
     width: 100%;
-    //padding: 1em 0 0 0rem;
   }
   &:before {
     position: absolute;
@@ -547,9 +539,12 @@ $link-color: var(--link-color);
     display: block;
     width: 6px;
     height: 100%;
-    margin-left: -4px;
+    margin-left: -3px;
     background: var(--light-text-color);
     z-index: 5;
+    @media(max-width: 375px) {
+      height: 150%;
+    }
   }
   li {
     padding: 2em 0;
@@ -559,7 +554,7 @@ $link-color: var(--link-color);
     &::after {
       content: "";
       display: block;
-      height: 0;
+      //height: 150%;
       clear: both;
       visibility: hidden;
     }
