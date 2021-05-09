@@ -18,16 +18,15 @@ Now easly deployable on Github Pages, with:
 - [x] Robots.txt
 - [x] Atom & Json feeds
 - [x] Sass
-- [x] Ultra fast (Only ~5kb of CSS)
+- [x] About page with Timeline!
 - [x] PageSpeed and w3Validator tests PASSED!
 - [x] Search bar
-
+- [x] Next & Previous Post
 
 ## Backlogs
 
 - [ ] Improve SEO score on [Lighthouse](lighthouse_test.png) 
-- [ ] Next & Previous Post
-- [ ] Comments (?)
+
 
 
 ## Screenshot
