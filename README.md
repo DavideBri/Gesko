@@ -18,7 +18,7 @@ Now easly deployable on Github Pages, with:
 - [x] Robots.txt
 - [x] Atom & Json feeds
 - [x] Sass
-- [x] About page with Timeline!
+- [x] About page, with Timeline!
 - [x] PageSpeed and w3Validator tests PASSED!
 - [x] Search bar
 - [x] Next & Previous Post
