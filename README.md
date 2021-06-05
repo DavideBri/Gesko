@@ -31,8 +31,8 @@ Now easly deployable on Github Pages, with:
 
 ## Screenshot
 
-![light-theme](https://github.com/P0WEX/Gesko/blob/master/light-theme.png)
-![dark-theme](https://github.com/P0WEX/Gesko/blob/master/dark-theme.png)
+![light-theme](https://github.com/P0WEX/Gesko/blob/master/light.png)
+![dark-theme](https://github.com/P0WEX/Gesko/blob/master/dark.png)
 
 ## Installation
 
