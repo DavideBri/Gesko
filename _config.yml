@@ -1,25 +1,25 @@
-site: Gesko
-title: Gesko
+site: Alper
+title: Alper
 description: >-
   just a minimalist, personal blog
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
+repo: https://github.com/alpercetiner/personal-website # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
-  name: p0wex
-  bio: just a minimalist, personal blog
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  name: alper
+  bio: personal blog
+  username: alpercetiner # general username
+  github: alpercetiner # github username
+  twitter: albertcetiner # twitter username
+  email: alpercetiner@gmail.com # email adress
 
 # URL settings
-url: "https://p0wex.github.io/" #
-baseurl: "/Gesko" # leave blank if not wishd
-permalink: "https://p0wex.github.io/Gesko"
+url: "https://alpercetiner.github.io/" #
+baseurl: "" # leave blank if not wishd
+permalink: "https://alpercetiner.github.io"
 permalink: pretty 
 
 
