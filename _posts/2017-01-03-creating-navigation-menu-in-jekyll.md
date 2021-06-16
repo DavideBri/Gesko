@@ -4,6 +4,7 @@ title: Creating navigation menu in Jekyll
 description: Using data folder to build Jekyll navigation
 summary: Using data folder to build Jekyll navigation.
 tags: coding jekyll
+minute: 1
 ---
 
 Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.

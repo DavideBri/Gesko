@@ -4,6 +4,7 @@ title: Top monospaced fonts for coding
 description: Take a look at the fonts in this post that can make your text editor or terminal emulator look little bit nicer
 summary: A good choice of font for your coding can make a huge difference and improve your productivity.
 tags: coding
+minute: 1
 ---
 
 Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.
