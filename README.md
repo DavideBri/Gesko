@@ -48,7 +48,7 @@ $ bundle exec jekyll serve
 Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
 If you want to upload it to Github Pages, remember to update the `_congif.yml` and if you are going to upload in a repo called yournickname.github.io, remember to update the `{{ site.baseurl }}` to `{{ site.url }}` 
 
-To create new tag, create a folder in `tag/` with the name of the new one. In this folder add an 'index.html' file and just add this header:
+To create new tag, create a folder in `tag/` with the name of the new one. In this folder add an `index.html` file and just add this header:
 ```
 ---
 layout: tag
