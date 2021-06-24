@@ -18,7 +18,7 @@ author:
 
 # URL settings
 url: "https://powex.ml" #
-baseurl: "/Gesko/" # leave blank if not wishd
+baseurl: "/Gesko" # leave blank if not wishd
 permalink: "https://powex.ml/Gesko/"
 permalink: pretty 
 
