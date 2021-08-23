@@ -5,7 +5,7 @@ layout: default
 
 <section class="post">
   <div class="flex-row-between">
-    <a href="{{ site.baseurl }}">« back</a>
+	  <a href="{{ site.url }}{{ site.baseurl }}/">« back</a>
     <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
       <div></div>
     </button>
@@ -14,7 +14,7 @@ layout: default
   <h1 class="title">{{ page.title }}</h1>
   <span class="meta">
     {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+    <a href="{{ site.url }}{{ site.baseurl }}/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
   {{ content }}
 </section>
 

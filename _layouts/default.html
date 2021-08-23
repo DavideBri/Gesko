@@ -65,7 +65,7 @@ layout: compress
   <div class="social-footer-icons">
     <a href="https://github.com/P0WEX" title="Github profile, nothing much there, yet" target="_blank"
       rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
-    <a href="{{site.url}}/atom.xml" title="Feed RSS" target="_blank" rel="noopener noreferrer"><i
+    <a href="{{site.url}}{{ site.baseurl }}/atom.xml" title="Feed RSS" target="_blank" rel="noopener noreferrer"><i
         class="fa fa-rss" aria-hidden="true"></i></a>
     <a href="https://github.com/P0WEX/Gesko" title="Browse the code" target="_blank" rel="noopener noreferrer"><i
         class="fa fa-code" aria-hidden="true"></i></a>
@@ -74,12 +74,12 @@ layout: compress
 
 
 {% if page.url == '/' %}
-  <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/assets/js/simple-jekyll-search.js"></script>
   <script>
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
-      json: '{{ site.baseurl }}/search.json',
+		      json: '{{ site.url }}{{ site.baseurl }}/search.json',
       searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
       noResultsText: 'No results found..',
       limit: 10,

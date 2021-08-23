@@ -17,10 +17,9 @@ author:
   email: your-email@email.com # email adress
 
 # URL settings
-url: "https://powex.ml" #
-baseurl: "/Gesko" # leave blank if not wishd
-permalink: "https://powex.ml/Gesko/"
-permalink: pretty 
+url: "https://powex.ml" # Domain Name of host. [username].github.io for github pages
+baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+permalink: pretty
 
 
 markdown: kramdown
