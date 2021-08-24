@@ -9,9 +9,8 @@ layout: default
         </button>
     </div>
     <div class="bio">
-        Maecenas euismod, ante eu mollis tempus, justo tellus tempus dui, non suscipit tellus diam vel ipsum.
-        Phasellus euismod auctor condimentum. Aenean at ex dolor. Praesent eget venenatis erat, sit amet cursus
-        nulla. Sestibulum rutrum, turpis id aliquam sagittis. <a href="{{ site.baseurl }}/about"> About me</a>
+	    {{ site.description }}
+	    <a href="{{ site.url }}{{ site.baseurl }}/about"> About me</a>
         </p>
     </div>
 
@@ -40,7 +39,7 @@ layout: default
     <ul>
         {% for post in site.posts %}
         <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		<a href="{{ site.url }}{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
         </li>
         {% endfor %}

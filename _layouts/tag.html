@@ -7,12 +7,12 @@ layout: default
 <section class="posts">
   <div class="flex-row-between">
     <h1>Tag #{{page.tag}}</h1>
-    <a href="{{ site.github.url }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a href="{{ site.url }}{{ site.baseurl }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
   </div>
   <ul>
     {% for post in site.posts %}
     {% if post.tags contains page.tag %}
-    <li><a class="post" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time
+    <li><a class="post" href="{{ site.url }}{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a><time
         datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></li>
     {% endif %}
     {% endfor %}
@@ -25,7 +25,7 @@ layout: default
   {% for tag in tags %}
   <ul>
     <li>
-      <a class="posts" href=" {{ site.baseurl }}/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' '
+	    <a class="posts" href="{{ site.url }}{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' '
         }} ({{ tag | last | size
         }}){% unless forloop.last %}, {% endunless %}
         {% endfor %}
