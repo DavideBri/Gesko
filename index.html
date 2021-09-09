@@ -3,14 +3,15 @@ layout: default
 ---
 <section id="intro">
     <div class="flex-row-between">
-        <h1>Hi 👋</h1>
+        <h1>{{ site.greetings }}</h1>
         <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
             <div></div>
         </button>
     </div>
     <div class="bio">
 	    {{ site.description }}
-	    <a href="{{ site.url }}{{ site.baseurl }}/about"> About me</a>
+        <p>
+	    <a href="{{ site.url }}{{ site.baseurl }}/about/">> About me</a>
         </p>
     </div>
 
@@ -39,7 +40,7 @@ layout: default
     <ul>
         {% for post in site.posts %}
         <li>
-		<a href="{{ site.url }}{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+		<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
         </li>
         {% endfor %}
