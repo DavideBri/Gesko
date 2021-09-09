@@ -28,8 +28,8 @@ layout: default
 	    <a class="posts" href="{{ site.url }}{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' '
         }} ({{ tag | last | size
         }}){% unless forloop.last %}, {% endunless %}
-        {% endfor %}
       </a>
     </li>
   </ul>
+  {% endfor %}
 </section>
