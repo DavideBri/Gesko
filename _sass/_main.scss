@@ -34,11 +34,13 @@ html {
 
 html,
 html[data-theme="light"] {
+	--text-font: Play;
+	--source-code-font: Source Code Pro;
 	--very-light-text-color: rgb(222, 222, 222);
 	--light-text-color: rgb(89, 183, 255);
 	--medium-text-color: #555;
 	--main-text-color: #333;
-	--highlight-text-color: #6cb4a0;
+	--highlight-text-color: #6c71c4;
 	--dark-text-color: #393e46;
 	--link-color: rgb(50, 87, 209);
 	--code-bg-color: rgb(245, 245, 245);
@@ -96,11 +98,13 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
+	--text-font: Play;
+	--source-code-font: Source Code Pro;
 	--very-light-text-color: #EEE;
 	--light-text-color: #c4bbf0;
 	--medium-text-color: #52057b;
 	--main-text-color: #EAEAEA;
-	--highlight-text-color: #6cb4a0;
+	--highlight-text-color: #9498d0;
 	--dark-text-color: rgb(36, 38, 42);
 	--link-color: rgb(255, 89, 125);
 	--code-bg-color: rgb(36, 38, 42);
@@ -155,7 +159,7 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: "Fira Code", monospace;
+	font-family: var(--text-font), monospace;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
@@ -183,6 +187,7 @@ pre {
 }
 
 code {
+	font-family: var(--source-code-font), monospace;
 	margin: unset;
 	padding: 0.1rem;
 	color: var(--highlight-text-color);
