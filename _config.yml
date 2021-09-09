@@ -1,16 +1,18 @@
 site: Gesko
 title: Gesko
+greetings: Hi 👋
 description: >-
   just a minimalist, personal blog
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
-timezone: Rome
+timezone:  Europe/Rome
 repo: https://github.com/p0wex/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
   name: p0wex
   bio: just a minimalist, personal blog
+  userpicture: 
   username: p0wex # general username
   github: p0wex # github username
   twitter: P0Wex # twitter username
@@ -20,6 +22,10 @@ author:
 url: "https://powex.ml" # Domain Name of host. [username].github.io for github pages
 baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
+
+# local
+url: "http://localhost:4000" # 
+baseurl: "" # 
 
 
 markdown: kramdown

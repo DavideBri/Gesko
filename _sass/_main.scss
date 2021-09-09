@@ -38,6 +38,7 @@ html[data-theme="light"] {
 	--light-text-color: rgb(89, 183, 255);
 	--medium-text-color: #555;
 	--main-text-color: #333;
+	--highlight-text-color: #6cb4a0;
 	--dark-text-color: #393e46;
 	--link-color: rgb(50, 87, 209);
 	--code-bg-color: rgb(245, 245, 245);
@@ -99,6 +100,7 @@ html[data-theme="dark"] {
 	--light-text-color: #c4bbf0;
 	--medium-text-color: #52057b;
 	--main-text-color: #EAEAEA;
+	--highlight-text-color: #6cb4a0;
 	--dark-text-color: rgb(36, 38, 42);
 	--link-color: rgb(255, 89, 125);
 	--code-bg-color: rgb(36, 38, 42);
@@ -183,7 +185,7 @@ pre {
 code {
 	margin: unset;
 	padding: 0.1rem;
-	color: var(--light-text-color);
+	color: var(--highlight-text-color);
 }
 
 pre code {
@@ -247,7 +249,7 @@ blockquote {
 h1 {
 	color: var(--main-text-color);
 	text-transform: uppercase;
-	font-size: larger;
+	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: 1.5rem;
 }
@@ -257,8 +259,28 @@ h3,
 h4,
 h5 {
 	font-weight: bold;
-	font-size: 1rem;
 	margin-bottom: 1.5rem;
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+h6 {
+	font-size: 1rem;
 }
 
 section h1:first-child {
@@ -287,9 +309,14 @@ b {
 	font-weight: 500;
 }
 
-.posts ul,
-header ul {
-	list-style: none;
+.post ul {
+	margin: 0px;
+	margin: 0px 0px 10px 10px;
+}
+
+.post ol {
+	margin: 0px;
+	margin: 0px 0px 10px 15px;
 }
 
 .posts li {
@@ -330,6 +357,9 @@ time {
 	margin-top: 3rem;
 }
 
+.highlight {
+	margin: 0px;
+}
 
 main {
 	display: flex;
@@ -452,6 +482,14 @@ color: #333;
   li {
     text-align: center;
   }
+}
+
+#search-results li::before {
+	content: "›";
+	display: inline-block;
+	margin-left: -1.3em;
+	width: 1.3em;
+	color: var(--main-text-color);
 }
 
 .post-nav {
