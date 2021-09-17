@@ -10,7 +10,9 @@ layout: default
       <div></div>
     </button>
   </div>
-  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.minute}}' reading</time>
+  {% assign minute=content | number_of_words | divided_by: 265 | plus: 1 %}
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }} -  
+    {% if page.minute %} {{ page.minute }} {% else %} {{ minute }} {% endif %}' read</time>
   <h1 class="title">{{ page.title }}</h1>
   <span class="meta">
     {% for tag in page.tags %}

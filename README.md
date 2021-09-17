@@ -22,6 +22,7 @@ Now easly deployable on Github Pages, with:
 - [x] PageSpeed and w3Validator tests PASSED ✔️
 - [x] Search bar 🔎
 - [x] Next & Previous Post ⏮️ ⏭️
+- [x] Automatic/Manual reading time estimation
 
 ## Backlogs
 
