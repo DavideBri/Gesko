@@ -2,10 +2,7 @@
 
 Simple and minimal Jekyll blog. 
 Forked from [Asko](https://github.com/manuelmazzuola/asko).
-Inspired from [Klisé](https://github.com/piharpi/jekyll-klise)
-
-Both had some issues with Github Pages, so I decided to make it work by losing as few features as possible.
-Now easly deployable on Github Pages, with:
+Original theme from [Sidey](https://github.com/ronv/sidey).
 
 ### Features
 
