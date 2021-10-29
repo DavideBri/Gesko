@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: p0wex.github.io/sitemap.xml
+Sitemap: https://p0wex.github.io/sitemap.xml
