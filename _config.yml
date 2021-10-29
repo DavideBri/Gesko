@@ -23,6 +23,7 @@ googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;
 # URL settings
 url: "https://p0wex.github.io/" # Domain Name of host. [username].github.io for github pages
 baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+permalink: "https://p0wex.github.io/Gesko"
 permalink: pretty
 
 # local
