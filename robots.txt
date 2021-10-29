@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: p0wex.github.io/sitemap.xml
+Sitemap: p0wex.github.io/Gesko/sitemap.xml
