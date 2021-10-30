@@ -7,6 +7,7 @@ lang: en-US
 timezone:  Europe/Rome
 repo: https://github.com/p0wex/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
+discus-identifier: cydonote # replace with your disqus shortname
 
 author:
   name: gesko
