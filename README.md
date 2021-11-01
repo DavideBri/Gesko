@@ -20,6 +20,7 @@ Original theme from [Sidey](https://github.com/ronv/sidey).
 - [x] Search bar 🔎
 - [x] Next & Previous Post ⏮️ ⏭️
 - [x] Automatic/Manual reading time estimation 🕐
+- [x] Disqus section ✍️ 
 
 ## Backlogs
 
