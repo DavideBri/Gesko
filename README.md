@@ -35,6 +35,8 @@ Original theme from [Sidey](https://github.com/ronv/sidey).
 
 ## Installation
 
+Be sure to have all [you need](https://jekyllrb.com/docs/installation/) before running anything. 
+
 Run local server:
 
 ```bash
