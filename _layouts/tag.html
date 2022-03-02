@@ -26,7 +26,7 @@ layout: default
   <ul>
     <li>
 	    <a class="posts" href="{{ site.url }}{{ site.baseurl }}/tag/{{ tag | replace:' ', '-' }}/">
-        {{ tag }} ({{ tag | last | size}}){% unless forloop.last %}, {% endunless %}
+        {{ tag[0] }} ({{ tag | last | size}}){% unless forloop.last %}, {% endunless %}
       </a>
     </li>
   </ul>
