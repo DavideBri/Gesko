@@ -4,7 +4,7 @@ date: 2021-09-04 00:00:00
 excerpt: 我们可以用唯一标识来标记客户端的请求，以便在客户端重试时忽略重复的请求。
 tags:
   - tech
-  - engineering-practice
+  - engineering practice
 ---
 
 ### Background
