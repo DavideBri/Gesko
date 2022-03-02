@@ -6,7 +6,7 @@ description: >-
 lang: en-US
 timezone:  Asia/Shanghai
 repo: https://github.com/leweii/Gesko # site repo [optional]
-data-theme: light # default theme "dark" | "light"
+data-theme: dark # default theme "dark" | "light"
 utteranc-identifier: leweii/Gesko # replace with your disqus shortname
 
 author:
