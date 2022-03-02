@@ -1,8 +1,8 @@
 site: JakobHe.com
 title: JakobHe's
-greetings: "Hi 👋"
+greetings: "Hi There! 👋"
 description: >-
-  blog
+  JakobHe's Blog
 lang: en-US
 timezone:  Asia/Shanghai
 repo: https://github.com/leweii/Gesko # site repo [optional]
@@ -11,11 +11,11 @@ utteranc-identifier: leweii/Gesko # replace with your disqus shortname
 
 author:
   name: JakobHe
-  bio: Hi
-  userpicture: 
-  username: # general username
+  bio: "Hi There! 👋"
+  userpicture: /images/avatar/0.jpg
+  username: JakobHe # general username
   github: leweii # github username
-  twitter: # twitter username
+  twitter: leweii # twitter username
   email: lewei.me@gmail.com # email adress
 
 # Font Settings
