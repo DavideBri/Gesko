@@ -3,7 +3,7 @@ title: "Feature Toggle 的类型 - 翻译自 Martin Fowler"
 date:   2021-08-11
 tags:
   - tech
-  - engineering practice
+  - engineering-practice
 ---
 
 我们已经看到了 Feature Toggles 提供的基本功能——能够在一个可部署单元中提供替代代码路径，并在运行时在它们之间进行选择。我们可以在各种上下文中，以各种方式使用此工具。 将所有Feature Toggles 集中到同一个储存bucket中可能很诱人，但这是一条危险的道路。 不同类别切换的设计维度是完全不同的，以相同的方式管理它们可能会导致pain in ass。

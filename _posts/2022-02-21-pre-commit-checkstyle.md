@@ -3,7 +3,7 @@ title: "CheckStyle in Pre-Commit"
 date:   2022-02-21
 tags:
   - tech
-  - engineering practice
+  - engineering-practice
   - git
   - tips
 featured_image: /images/post_images/2022-02-21-pre-commit-checkstyle/0.png

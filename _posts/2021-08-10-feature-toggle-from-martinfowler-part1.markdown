@@ -3,7 +3,7 @@ title: "什么是 Feature Toggles - 翻译自 Martin Fowler"
 date:   2021-08-10
 tags:
   - tech
-  - engineering practice
+  - engineering-practice
 ---
 
 Feature Toggles（通常也称为Feature Flags）是一种强大的技术，它允许团队在不更改代码的情况下修改系统行为。 它在很多场景下都适用，它是在实现和管理功能之间切换时很重要的一种实现方式。 Feature Toggles让系统变的复杂。 我们需要使用工具来管理Feature Toggles 以简化它的复杂性。但同时, 在项目中我们还是需要努力减少Feature Toggles的数量。
