@@ -1,0 +1,10 @@
+---
+title: "多年前写的-纪念sJobs"
+date:   2021-07-01
+tags:
+  - 杂文
+---
+
+:)
+
+> ![Image]({{ site.url }}/images/post_images/2021-07-01-s-jobs/sjobs.jpg)
