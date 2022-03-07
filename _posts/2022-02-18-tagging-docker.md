@@ -1,5 +1,5 @@
 ---
-title: "tagging docker"
+title: "Define a Version Rule and Tag IT"
 date:   2022-02-18
 tags:
   - tech
@@ -8,7 +8,9 @@ tags:
 published: true
 ---
 
-你小子一旦开始用Docker, 在软件版本管理的过程中, 我劝你要重视Docker Tagging, 要很重视.
+一个好的版本号规则, 有助于每一个环节的追溯, 让团队沟通没有歧义.
+
+定义好了还不够, 我们还要用好它.
 
 ![Image]({{ site.url }}/images/post_images/2022-02-18-tagging-docker/0.jpeg)
 
@@ -16,7 +18,7 @@ published: true
 
 
 #### 1. 定义一个方便自动化的版本定义规则
-[语义化版本](https://semver.org/lang/zh-CN/) SemVer 是一种很棒的实操. 它是目前广泛使用的一种版本定义方法, 它定义了
+[语义化版本](https://semver.org/lang/zh-CN/) SemVer 是一种很常见的规范. 
 
 - 主版本号：当你做了不兼容的 API 修改，
 - 次版本号：当你做了向下兼容的功能性新增，
@@ -45,18 +47,18 @@ published: true
 答案是docker tag 一定要有git commit hash. 要达成回溯的目的, 这个docker tag 需要明确体现code commit 中的信息, 目前十分流行的方式是在docker tag 中加入commit hash. 即便是当我们在发布公共docker image 时, 我也强烈建议使用SemVer 加上commit hash 的方式来定义version.
 
 
-#### 3. 一种健壮的版本定义
-please define "健壮" 二字.
+#### 3. 一种"好的"的版本定义
+please define "好的" 二字.
 
-我不懂什么是"健壮", 但是我懂得什么是"不健壮", 一旦出现以下某一种现象, 我就认为它不够健壮.
+我不懂什么是"好的", 但是我懂得什么是"不好", 一旦出现以下某一种现象, 我就认为它不够好.
 
 1. 我们无法通过docker tag回溯当前运行的代码
 2. 我们无法区分, docker image 里运行的是什么
 3. 无法通过version 迅速rollback
 
-三种"不健壮"的现象, 矛头都齐刷刷的指向了一件事
+三种"不好"的现象, 矛头都齐刷刷的指向了一件事
 
-绝对, 绝对, 绝对**不要重复**使用同一个version number push docker image **!!!**
+绝对, 绝对, 绝对**不要重复**使用同一个version number 然后还 push 到docker repository 里 **!!!**
 
 或许你们混淆了tagging different version 和 latest 的用法, 把所有的version number 都当作:latest 来用.
 
@@ -67,4 +69,4 @@ please define "健壮" 二字.
 但是在日常开发时, ":latest" 就显得那么不可靠.
 
 
-或许我能借助这篇博客安利你一种较为可靠的version 定义和 docker tagging practicing, 或许你有更好的建议能够实现健壮的版本管理, 请不要吝惜自己的字, 向我发来留言👇🏻️
+或许我能借助这篇博客安利你一种较为可靠的version 定义和 docker tagging practicing, 或许你有更好的建议能够实现so called 健壮的版本管理, 请不要吝惜自己的文字, 向我发来留言👇🏻️

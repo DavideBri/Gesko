@@ -24,3 +24,12 @@ published: false
 2. prepare for update
 3. update quickly
 4. roll back immediately
+
+#### 准备
+你需要事先拥有三样东西:
+1. 一个 jenkins
+2. 一个 gitlab/github 及其一段可编译运行的代码
+3. 一个 docker repository
+
+你需要事先做三件事:
+1. 
