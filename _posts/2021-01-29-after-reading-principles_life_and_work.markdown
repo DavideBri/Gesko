@@ -45,5 +45,5 @@ tags:
 title="principles notebook"
 width="100%"
 height="500"
-src="{{ site.url }}/assets/post_images/2021-01-29-after-reading-principles_life_and_work/principles-notebook.html">
+src="{{ site.url }}/images/post_images/2021-01-29-after-reading-principles_life_and_work/principles-notebook.html">
 </iframe>
