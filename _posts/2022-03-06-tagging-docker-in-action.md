@@ -28,10 +28,10 @@ tags:
 2. 一个 docker repository
 
 
-![Image]({{ site.url }}/images/post_images/2022-02-21-pre-commit-checkstyle/0.jpg)
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/0.jpg)
 
 
-![Image]({{ site.url }}/images/post_images/2022-02-21-pre-commit-checkstyle/1.jpg)
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/1.jpg)
 
 
 3. 一个可编译运行的应用, 你可以fork这个官方example 👇🏻️, 然后放到自己的gitlab里
@@ -40,7 +40,7 @@ tags:
 git@github.com:docker/getting-started.git
 ```
 
-![Image]({{ site.url }}/images/post_images/2022-02-21-pre-commit-checkstyle/2.jpg)
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/2.jpg)
 
 #### 开始!
 
@@ -48,7 +48,7 @@ git@github.com:docker/getting-started.git
 
 ##### 第二步 选择一个分支, 或许对于我们的团队来说, 只有分支main/master 的代码需要打包发布, 而其它分支的代码我们只需要checkstyle 或者sonar scan.
 
-![Image]({{ site.url }}/images/post_images/2022-02-21-pre-commit-checkstyle/3.jpg)
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/3.jpg)
 
 ##### 第三步 定义每一步的工作内容吧
 
@@ -107,15 +107,15 @@ test:
 
 先本地执行一下👇🏻️
 
-![Image]({{ site.url }}/images/post_images/2022-02-21-pre-commit-checkstyle/4.jpg)
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/4.jpg)
 
 提交之后的一个执行效果👇🏻️
 
-![Image]({{ site.url }}/images/post_images/2022-02-21-pre-commit-checkstyle/5.jpg)
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/5.jpg)
 
 然后我们发现, docker repo 被更新了 👇🏻️
 
-![Image]({{ site.url }}/images/post_images/2022-02-21-pre-commit-checkstyle/6.jpg)
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/6.jpg)
 
 修改配置一下变量, 把你的帐号密码藏起来, 把你的docker repo 地址配置一下, 我用的是官方的repo 就如下配置啦.
 
@@ -134,3 +134,5 @@ CI_REGISTRY_PASSWORD: password
 #### 最后
 
 对于所有的one time work, 我希望团队都是不遗余力的干, 鬼知道你提高了多少效率, 鬼知道别人赶着做的项目, 对你来说是那么的轻松, 还可以腾出时间写点博客啥的~
+
+源码在这 [gitlab/leweii/tagging-docker-demo](https://gitlab.com/leweii/tagging-docker-demo.git)
