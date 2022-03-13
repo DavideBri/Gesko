@@ -89,18 +89,18 @@ test:
     # - docker run $CONTAINER_TEST_IMAGE /script/to/run/tests
     - echo "test done"
 
-# deploy:
-#   stage: deploy
-#   only:
-#     - main
-#     - master
-#   script:
-#     - echo "start deploy"
-#     - docker pull $CONTAINER_TEST_IMAGE
-#     - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE
-#     - docker push $CONTAINER_RELEASE_IMAGE
-#     - ./deploy.sh
-#     - echo "deploy done"
+deploy:
+  stage: deploy
+  only:
+    - main
+    - master
+  script:
+    - echo "start deploy"
+    - docker pull $CONTAINER_TEST_IMAGE
+    - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE
+    - docker push $CONTAINER_RELEASE_IMAGE
+    # - ./deploy.sh
+    - echo "deploy done"
 ```
 
 大致意思就是, 这个pipeline 分了三步, `1. build` `2. test` `3. deploy` 具体配置细节下次我们再聊. 
