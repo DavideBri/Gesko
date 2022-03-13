@@ -7,40 +7,30 @@ tags:
   - tips
 ---
 
-今天, 我们就根据这篇[tagging docker](https://www.jakobhe.com/2022/02/18/tagging-docker) 的理念来搭建一个简单的pipeline.
+今天, 我们就根据这篇[tagging docker](https://www.jakobhe.com/2022/02/18/tagging-docker) 的理念来搭建一个简单的pipeline. 让团队每天都在重复, 每天都在干的事情自动化.
 
-1. build image with tag
-3. build and docker push
-4. 另一个环境 docker pull
-5. 另一个环境 docker run
+这个pipeline 包括了
 
-之后, 我们会有一些简单的演练, 内容包括
+1. build
+2. test
+3. deploy
 
-1. install and run in a new environment
-2. prepare for update
-3. update quickly
-4. roll back immediately
+build 和deploy 的唯一区别就是tag 不一样. 举一反三后, 大家都能找到自己团队最适合的流程.
 
 #### 准备
 准备几样东西:
 
-1. 一个 gitlab/github 及其一段可编译运行的代码
-2. 一个 docker repository
-
-
-![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/0.jpg)
-
-
-![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/1.jpg)
-
-
-3. 一个可编译运行的应用, 你可以fork这个官方example 👇🏻️, 然后放到自己的gitlab里
+1. 一个 gitlab/github 及其一段可编译运行的代码👇🏻️
 
 ```bash
 git@github.com:docker/getting-started.git
 ```
 
 ![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/2.jpg)
+
+2. 一个 docker repository 👇🏻️
+
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/1.jpg)
 
 #### 开始!
 
