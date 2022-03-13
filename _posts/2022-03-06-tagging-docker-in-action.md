@@ -103,7 +103,13 @@ deploy:
     - echo "deploy done"
 ```
 
-大致意思就是, 这个pipeline 分了三步, `1. build` `2. test` `3. deploy` 具体配置细节下次我们再聊. 
+大致意思就是, 这个pipeline 分了三步, 
+
+- `1. build` 
+- `2. test` 
+- `3. deploy` 
+
+具体配置细节下次我们再聊. 
 
 先本地执行一下👇🏻️
 
@@ -127,9 +133,11 @@ CI_REGISTRY_PASSWORD: password
 几个要注意的地方
 
 - docker tag 的方式因团队流程而定, 个人非常推荐测试环境以branch + commit short hash 的方式, 例子里的tag 就是`lewei/repo:main.5cff68f7` 
-- 账户密码千万放在gitlab cdci pipeline 里
 - 指定你的pipeline docker 版本, 例如 docker:19.03.12, 如果你坚持使用latest, 那么将来每次docker 的 docker image 升级, 你都在承担着风险
-- 
+- 账户密码千万放在gitlab cdci pipeline 里, 放在变量里
+
+![Image]({{ site.url }}/images/post_images/2022-03-06-tagging-docker-in-action/7.jpg)
+
 
 #### 最后
 
