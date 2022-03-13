@@ -1,5 +1,5 @@
 ---
-title: "tagging docker in action"
+title: "Tagging Docker in Action"
 date:   2022-03-06
 tags:
   - tech
