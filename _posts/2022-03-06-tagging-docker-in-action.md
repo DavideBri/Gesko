@@ -5,6 +5,7 @@ tags:
   - tech
   - engineering practice
   - tips
+  - cdci
 ---
 
 今天, 我们就根据这篇[tagging docker](https://www.jakobhe.com/2022/02/18/tagging-docker) 的理念来搭建一个简单的pipeline. 让团队每天都在重复, 每天都在干的事情自动化.

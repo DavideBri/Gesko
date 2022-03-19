@@ -6,6 +6,7 @@ tags:
   - engineering practice
   - git
   - tips
+  - cdci
 featured_image: /images/post_images/2022-02-21-pre-commit-checkstyle/0.png
 ---
 
