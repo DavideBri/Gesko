@@ -9,7 +9,7 @@ published: true
 
 开启omnifocus 第一件事, inbox.
 
-#### 
+#### Background
 
 每天的**任务杂又多**, 如何**确保不丢失**?
 
