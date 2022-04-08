@@ -3,7 +3,7 @@ title: "写在人生边上 - 读后感"
 date:   2022-03-29
 tags:
   - 读后感
-published: false
+published: true
 ---
 
 首先, 钱锺书先生, 看待事情的角度之刁钻, 应该是全世界出名滴.
