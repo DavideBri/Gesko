@@ -27,7 +27,7 @@ published: true
 
 跟玩具, 书籍, 首饰, 化妆品一样, 我们只要把所有的任务都扔进Inbox 里, 就行.
 
-![Image]({{ site.url }}/images/post_images/2022-04-07-omnifocus-today/1.png)
+![Image]({{ site.url }}/images/post_images/2022-04-06-omnifocus-inbox-1/1.png)
 
 下一章, 我们讲讲要怎么理inbox, 也就是把玩具车放一起, 积木堆一起的过程.
 
