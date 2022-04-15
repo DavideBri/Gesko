@@ -18,7 +18,7 @@ published: true
 - Both Project and Tag
 - Either Project and Tag
 
-![Image]({{ site.url }}/images/post_images/2022-04-06-omnifocus-inbox-1/1.jpg)
+![Image]({{ site.url }}/images/post_images/2022-04-06-omnifocus-inbox-2/1.jpg)
 
 所以, 从inbox 挪出去的第一步是, 把task 加到Project 或者加上Tag 🏷️.
 
