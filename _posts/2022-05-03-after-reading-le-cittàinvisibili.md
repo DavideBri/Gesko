@@ -7,21 +7,21 @@ tags:
 published: true
 ---
 
+#### 开始
+
 如果说每一本书都有自己的朋友圈，那这本书绝不可能出现在我的朋友圈里；如果说书有人脉，那这本书绝对在我的五度人脉之外。
 
 《看不见的城市》过于诗意，绝对是我等理工执拗男无法靠近的那一类书籍。
 
-直到我发现有人以这种形式在做《看不见的城市》的读书笔记。
+直到我发现有人以这种形式在做《看不见的城市》的读书笔记。才意识到，原来这是一本特别*几何*，特别*处女座*的一本书。
 
 ![Image]({{ site.url }}/images/post_images/2022-05-03-after-reading-le-cittàinvisibili/TIRWMCL_Spreadsheet.jpg)
 
-才认识到，原来这是一本特别*几何*，特别*处女座*的一本书。这本书特别适合慢慢读，边读边想（image），边读边把文字画面化，如果心有旁念不如不读。
-
-比如这篇：
+这本书特别适合慢慢读，边读边想（image），边读边把文字画面化，如果心有旁念不如不读。比如这篇：
 
 ![Image]({{ site.url }}/images/post_images/2022-05-03-after-reading-le-cittàinvisibili/1.jpg)
 
-#### 然后才是读后感
+#### 读后感
 
 我们都生活在一个城市里, 我们都面临对城市的选择, 城市也在, 反过来选择人.
 
@@ -43,7 +43,9 @@ published: true
 > 
 > 伊塔洛卡尔维诺. 看不见的城市（王小波的精神偶像，以惊人的想象力影响世界文学！豆瓣4万读者9.0+分评价！） (卡尔维诺经典) (Chinese Edition) (p. 51). Kindle Edition. 
 
-然后是一家新加坡书店的展区图片。
+#### Excelsior Shopping Centre 展区
+
+然后是一家新加坡商场Excelsior Shopping Centre 对此书的一个展区。
 
 ![Image]({{ site.url }}/images/post_images/2022-05-03-after-reading-le-cittàinvisibili/After-A-Lovers-Discourse-2.jpg)
 
@@ -55,7 +57,7 @@ published: true
 
 ![Image]({{ site.url }}/images/post_images/2022-05-03-after-reading-le-cittàinvisibili/TIRWMCL_Window-4_7-scaled.jpg)
 
-最后是一些书摘。
+#### 书摘。
 
 <iframe id="notebook"
 title="矛盾论 (Chinese Edition)-Notebook"
