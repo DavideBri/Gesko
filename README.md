@@ -22,11 +22,6 @@ Original theme from [Sidey](https://github.com/ronv/sidey).
 - [x] Automatic/Manual reading time estimation 🕐
 - [x] Disqus section ✍️ 
 
-## Backlogs
-
-- [ ] Improve SEO score on [Lighthouse](lighthouse_test.png) 
-
-
 
 ## Screenshot
 
