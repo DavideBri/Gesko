@@ -597,7 +597,7 @@ $link-color: var(--link-color);
     &::after {
       content: "";
       display: block;
-      //height: 150%;
+      height: 150%;
       clear: both;
       visibility: hidden;
     }
