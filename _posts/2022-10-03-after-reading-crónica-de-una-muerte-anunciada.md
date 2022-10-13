@@ -1,6 +1,6 @@
 ---
 title: "一桩事先张扬的谋杀案 - 读后感"
-date:   2022-10-03
+date:   2022-10-04
 tags:
   - 读后感
 published: true
