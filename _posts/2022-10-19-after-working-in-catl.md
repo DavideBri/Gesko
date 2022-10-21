@@ -16,7 +16,7 @@ published: true
 <div align='center' ><font size='70'>8</font>项</div>
 <p align='center'>...</p>
 
-<div align='center' >打开脑洞，发明专利，外观专利，实用新型专利</div>
+<div align='center' >打开脑洞，发明专利，国际发明专利，外观专利，实用新型专利</div>
 <div align='center' ><font size='70'>24</font>枚</div>
 <p align='center'>...</p>
 
