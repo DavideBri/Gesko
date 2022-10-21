@@ -4,7 +4,8 @@ date:   2022-10-22
 tags:
   - tech
   - engineering practice
-published: false
+published: true
+minute: 5
 ---
 
 ### Background
