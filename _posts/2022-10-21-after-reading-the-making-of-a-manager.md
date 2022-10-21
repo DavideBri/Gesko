@@ -65,7 +65,7 @@ published: true
 
 这里我要大力推荐这篇专栏->> [管理的客体：自我](https://zhuanlan.zhihu.com/p/458871527)
 
-#### 信任
+### 信任
 
 一些文摘：
 
