@@ -8,12 +8,12 @@ published: true
 <p align='center'>这一年</p>
 <p align='center'>...</p>
 
-<div align='center' >参与制定国标，行标，地标，团标</div>
-<div align='center' ><font size='70'>8</font>项</div>
-<p align='center'>...</p>
-
 <div align='center' >参与开发产品</div>
 <div align='center' ><font size='70'>3</font>款</div>
+<p align='center'>...</p>
+
+<div align='center' >参与制定国标，行标，地标，团标</div>
+<div align='center' ><font size='70'>8</font>项</div>
 <p align='center'>...</p>
 
 <div align='center' >打开脑洞，发明专利，外观专利，实用新型专利</div>
@@ -22,6 +22,14 @@ published: true
 
 <div align='center' >坐飞机</div>
 <div align='center' ><font size='70'>14</font>次</div>
+<p align='center'>...</p>
+
+<div align='center' >利用通勤时间写博客</div>
+<div align='center' ><font size='70'>26</font>篇</div>
+<p align='center'>...</p>
+
+<div align='center' >利用通勤时间看书</div>
+<div align='center' ><font size='70'>11</font>本</div>
 <p align='center'>...</p>
 
 不得不说，平台还是很重要的。在catl这年，见识到了行业领先人的工作都是些啥。
