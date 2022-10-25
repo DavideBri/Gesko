@@ -1,5 +1,5 @@
 ---
-title: "物联网底层通讯协议定义原则"
+title: "物联网通讯协议定义原则"
 date:   2022-10-22
 tags:
   - tech
@@ -59,11 +59,9 @@ minute: 5
 
 竟然公然表达国标定义不好？其实也不是，毕竟充电机的遥信，遥测，遥控，遥调满打满算，不会超过一千个，而且过去，硬件迭代和拓展速度相对较慢，限制了软件层面的迭代和拓展速度。即使定义的不好，不清晰，也无伤大雅。结果就是，只要协议能用，能满足需求，能跑通即可。
 
-那么紧接着，我们要先澄清的两件事就是：
-1. 既然硬件迭代慢，硬件协议有必要做到高可读，高可扩展，高度抽象吗？
-2. 既然能用是底线，那么硬件协议，特别是非标协议，有必要遵循什么原则吗？
+那么紧接着，我们要先澄清既然硬件迭代慢，硬件协议有必要做到高可读，高可扩展，高度抽象吗？
 
-1，2两个问题，我的回答和立场很明确，ta们都是肯定的。待我展开讨论这两个必要性之后，再切入主题，"物联网底层通讯协议定义原则"
+我的回答和立场很明确，ta们都是肯定的。待我展开讨论这两个必要性之后，再切入主题，"物联网底层通讯协议定义原则"
 
 ### 硬件协议有必要做到高可读，高可扩展，高度抽象吗？
 
@@ -85,17 +83,7 @@ minute: 5
 
 那么技术上，一套可读，可拓展，的硬件通讯协议，就能够给将来的新功能，新迭代铺路，保证迭代质量。
 
-#### 硬件协议，特别是非标协议，有必要遵循什么原则吗？
-
-如果我们在，无法用一套标准囊括所有需求，的观点上没有异议，那么这个问题实际上是在问，为什么我们要遵循设计原则？
-
-再挖一层，其实，这个问题是在讨论，授人以鱼还是授人以渔的道理。
-
-既然我无法用一套标准囊括所有需求，那么我只能制定，制定协议的原则，就是规则。
-
-background和大前提阐述清晰之后，我们回归正题：物联网底层通讯协议定义原则。
-
-### 物联网底层通讯协议定义原则
+### 物联网通讯协议定义原则
 
 既然是协议，我们完全可以套用几十年以来，前人总结出来的API设计原则，再加上一些由物联网产生出的特点，来规范我们定义协议的原则。
 
@@ -154,13 +142,11 @@ background和大前提阐述清晰之后，我们回归正题：物联网底层�
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">翻跟斗</td>
-    <td data-th="Function Name">execute fangendou</td>
     <td data-th="参数描述">1. 圈数；2. 准备翻跟斗时间（ms）3. 翻跟斗次数</td>
     <td data-th="备注">执行全套翻跟斗 = 准备 + 翻跟斗，重复n次</td>
   </tr>
@@ -171,19 +157,16 @@ background和大前提阐述清晰之后，我们回归正题：物联网底层�
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">准备翻跟斗</td>
-    <td data-th="Function Name">pre execute fangendou</td>
     <td data-th="参数描述">准备时间（ms）</td>
     <td data-th="备注">准备翻跟斗</td>
   </tr>
   <tr>
     <td data-th="报文名称">翻跟斗</td>
-    <td data-th="Function Name">execute fangendou</td>
     <td data-th="参数描述">无</td>
     <td data-th="备注">执行翻跟斗</td>
   </tr>
@@ -198,19 +181,16 @@ background和大前提阐述清晰之后，我们回归正题：物联网底层�
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">准备翻跟斗</td>
-    <td data-th="Function Name">pre execute fangendou</td>
     <td data-th="参数描述">准备时间（ms）</td>
     <td data-th="备注">准备翻跟斗</td>
   </tr>
   <tr>
     <td data-th="报文名称">翻跟斗</td>
-    <td data-th="Function Name">execute fangendou</td>
     <td data-th="参数描述">无</td>
     <td data-th="备注">执行翻跟斗</td>
   </tr>
@@ -231,7 +211,7 @@ for (n) {
 
   * pre execute fangendou(100ms)
 
-  * cute fangendou()
+  * execute fangendou()
 
 }
 
@@ -252,13 +232,11 @@ for (n) {
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">上报充电信息</td>
-    <td data-th="Function Name">charging info</td>
     <td data-th="参数描述">1. 充电时候的姿态；2. 电流；3. 电压</td>
     <td data-th="备注"></td>
   </tr>
@@ -269,13 +247,11 @@ for (n) {
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">上报充电信息</td>
-    <td data-th="Function Name">get charging info</td>
     <td data-th="参数描述">1. 电流；2. 电压</td>
     <td data-th="备注"></td>
   </tr>
@@ -284,13 +260,11 @@ for (n) {
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">上报姿态信息</td>
-    <td data-th="Function Name">get physical status</td>
     <td data-th="参数描述">1. 身体姿态；2. 耳朵姿态；3. 四肢姿态</td>
     <td data-th="备注"></td>
   </tr>
@@ -309,13 +283,11 @@ for (n) {
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">开始行走</td>
-    <td data-th="Function Name">start walking</td>
     <td data-th="参数描述">行走距离</td>
     <td data-th="备注"></td>
   </tr>
@@ -324,13 +296,11 @@ for (n) {
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">上报姿态信息</td>
-    <td data-th="Function Name">get physical status</td>
     <td data-th="参数描述">1. 身体姿态；2. 耳朵姿态；3. 四肢姿态</td>
     <td data-th="备注"></td>
   </tr>
@@ -341,14 +311,12 @@ for (n) {
 <table class="rwd-table">
   <tr>
     <th>报文名称</th>
-    <th>Function Name</th>
     <th>参数描述</th>
     <th>执行结果</th>
     <th>备注</th>
   </tr>
   <tr>
     <td data-th="报文名称">开始行走</td>
-    <td data-th="Function Name">start walking</td>
     <td data-th="参数描述">行走距离</td>
     <td data-th="执行结果">1. 执行结果（成功|失败）；2.失败原因</td>
     <td data-th="备注"></td>
