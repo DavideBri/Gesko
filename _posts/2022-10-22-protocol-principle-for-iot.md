@@ -151,16 +151,43 @@ background和大前提阐述清晰之后，我们回归正题：物联网底层�
 
 **❌错误示范**
 
-| 标题 | 一个普通标题 |
-| ------ | ------ |
-| 翻跟斗 | execute fangendou |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">翻跟斗</td>
+    <td data-th="Function Name">execute fangendou</td>
+    <td data-th="参数描述">1. 圈数；2. 准备翻跟斗时间（ms）3. 翻跟斗次数</td>
+    <td data-th="备注">执行全套翻跟斗 = 准备 + 翻跟斗，重复n次</td>
+  </tr>
+</table>
 
-**✔正确示范**
+**✅正确示范**
 
-| 标题 | 一个普通标题 |
-| ------ | ------ |
-| 准备翻跟斗 | pre execute fangendou |
-| 执行翻跟斗 | execute fangendou |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">准备翻跟斗</td>
+    <td data-th="Function Name">pre execute fangendou</td>
+    <td data-th="参数描述">准备时间（ms）</td>
+    <td data-th="备注">准备翻跟斗</td>
+  </tr>
+  <tr>
+    <td data-th="报文名称">翻跟斗</td>
+    <td data-th="Function Name">execute fangendou</td>
+    <td data-th="参数描述">无</td>
+    <td data-th="备注">执行翻跟斗</td>
+  </tr>
+</table>
 
 应该**分别**定义准备翻跟斗动作和翻跟斗两个动作接口。
 
@@ -168,10 +195,49 @@ background和大前提阐述清晰之后，我们回归正题：物联网底层�
 
 **拓展使用 - 执行翻跟斗假动作后卖乖**
 
-| 标题 | 一个普通标题 |
-| ------ | ------ |
-| 准备翻跟斗 | pre execute fangendou |
-| 卖乖 | act cute |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">准备翻跟斗</td>
+    <td data-th="Function Name">pre execute fangendou</td>
+    <td data-th="参数描述">准备时间（ms）</td>
+    <td data-th="备注">准备翻跟斗</td>
+  </tr>
+  <tr>
+    <td data-th="报文名称">翻跟斗</td>
+    <td data-th="Function Name">execute fangendou</td>
+    <td data-th="参数描述">无</td>
+    <td data-th="备注">执行翻跟斗</td>
+  </tr>
+  <tr>
+    <td data-th="报文名称">卖乖</td>
+    <td data-th="Function Name">act cute</td>
+    <td data-th="参数描述">卖乖时间（ms）</td>
+    <td data-th="备注">0</td>
+  </tr>
+</table>
+
+使用方调用三次方法
+
+```
+
+for (n) {
+
+
+  * pre execute fangendou(100ms)
+
+  * cute fangendou()
+
+}
+
+* act cute(5000ms)
+
+```
 
 #### 3. 迪米特法则(最少知识原则)
 
@@ -183,23 +249,52 @@ background和大前提阐述清晰之后，我们回归正题：物联网底层�
 
 **❌错误示范**
 
-| 标题 | 充电信息 |
-| ------ | ------ |
-| 充电信息 | charging info |
-| 充电时候的姿态 | physical status |
-| 电流 | C |
-| 电压 | V |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">上报充电信息</td>
+    <td data-th="Function Name">charging info</td>
+    <td data-th="参数描述">1. 充电时候的姿态；2. 电流；3. 电压</td>
+    <td data-th="备注"></td>
+  </tr>
+</table>
 
-**✔正确示范**
+**✅正确示范**
 
-| 标题 | 充电信息 |
-| ------ | ------ |
-| 电流 | C |
-| 电压 | V |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">上报充电信息</td>
+    <td data-th="Function Name">get charging info</td>
+    <td data-th="参数描述">1. 电流；2. 电压</td>
+    <td data-th="备注"></td>
+  </tr>
+</table>
 
-| 标题 | 姿态信息 |
-| ------ | ------ |
-| 姿态 | physical status |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">上报姿态信息</td>
+    <td data-th="Function Name">get physical status</td>
+    <td data-th="参数描述">1. 身体姿态；2. 耳朵姿态；3. 四肢姿态</td>
+    <td data-th="备注"></td>
+  </tr>
+</table>
 
 #### 4. 接口(报文)隔离法则
 
@@ -211,28 +306,54 @@ background和大前提阐述清晰之后，我们回归正题：物联网底层�
 
 **❌错误示范**
 
-| 标题 | 控制报文 |
-| ------ | ------ |
-| 开始行走 | start walking |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">开始行走</td>
+    <td data-th="Function Name">start walking</td>
+    <td data-th="参数描述">行走距离</td>
+    <td data-th="备注"></td>
+  </tr>
+</table>
 
-| 标题 | 姿态信息（某实时状态报文） |
-| ------ | ------ |
-| 姿态 | physical status |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">上报姿态信息</td>
+    <td data-th="Function Name">get physical status</td>
+    <td data-th="参数描述">1. 身体姿态；2. 耳朵姿态；3. 四肢姿态</td>
+    <td data-th="备注"></td>
+  </tr>
+</table>
 
-**✔正确示范**
+**✅正确示范**
 
-
-| 标题 | 控制报文 |
-| ------ | ------ |
-| 开始行走 | start walking |
-
-| 标题 | 控制行走反馈报文 |
-| ------ | ------ |
-| 行走执行结果 | execution result |
-
-| 标题 | 姿态信息（某实时状态报文） |
-| ------ | ------ |
-| 姿态 | physical status |
+<table class="rwd-table">
+  <tr>
+    <th>报文名称</th>
+    <th>Function Name</th>
+    <th>参数描述</th>
+    <th>执行结果</th>
+    <th>备注</th>
+  </tr>
+  <tr>
+    <td data-th="报文名称">开始行走</td>
+    <td data-th="Function Name">start walking</td>
+    <td data-th="参数描述">行走距离</td>
+    <td data-th="执行结果">1. 执行结果（成功|失败）；2.失败原因</td>
+    <td data-th="备注"></td>
+  </tr>
+</table>
 
 #### 5. 合并同类项原则
 
@@ -266,12 +387,10 @@ background和大前提阐述清晰之后，我们回归正题：物联网底层�
 
 优点：对同类报文高度抽象，对不同类报文进行解藕。（高可拓展性，高可读，高抽象）
 
-例：根据实际场景对功能进行抽象，而不是全部一致。
+例：根据实际场景对功能进行抽象，而不是全部强求统一。
 
-#### 9. 无超时原则
+#### 9. 下位设备无超时原则
 
 超时必然耦合业务，所有超时都应由上位机自行判断。
 
 优点：解藕业务，减少出现bug的可能。
-
-例：根据实际场景对功能进行抽象，而不是全部一致。
