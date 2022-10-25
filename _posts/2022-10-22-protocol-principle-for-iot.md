@@ -8,6 +8,8 @@ published: true
 minute: 5
 ---
 
+<link rel="stylesheet" href="css/table.css">
+
 ### Background
 
 物联网颇有一副崛起之势，但是底层硬件由于功能边界清晰，无涉及复杂业务等原因，很少人在协议抽象和统一标准上下功夫，特别是非标产品，常常陷入能用即可的窘境。
