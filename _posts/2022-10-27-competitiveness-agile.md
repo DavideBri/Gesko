@@ -43,7 +43,7 @@ ps: 本文不限于软件项目的敏捷。
 * 客户合作高于合同谈判
 * 响应变化高于遵循计划
 
-> ![Image]({{ site.url }}/images/post_images/2022-10-27-competitiveness-agile/Kevin Kelly.jpg)
+> ![Image]({{ site.url }}/images/post_images/2022-10-27-competitiveness-agile/agile.jpg)
 
 ### 敏捷十二大原则
 
