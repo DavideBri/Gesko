@@ -147,7 +147,10 @@ minute: 5
   </tr>
   <tr>
     <td data-th="名称">翻跟斗</td>
-    <td data-th="参数">1. 圈数；</br>2. 准备翻跟斗时间（ms）</br>3. 翻跟斗次数</td>
+    <td data-th="参数">
+      1. 圈数；
+      2. 准备翻跟斗时间（ms）
+      3. 翻跟斗次数</td>
     <td data-th="备注">执行全套翻跟斗 = 准备 + 翻跟斗，重复n次</td>
   </tr>
 </table>
