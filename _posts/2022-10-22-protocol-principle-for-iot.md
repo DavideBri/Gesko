@@ -141,13 +141,16 @@ minute: 5
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
+    <th>名称</th>
+    <th>描述</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">翻跟斗</td>
-    <td data-th="参数描述">1. 圈数；2. 准备翻跟斗时间（ms）3. 翻跟斗次数</td>
+    <td data-th="名称">翻跟斗</td>
+    <td data-th="参数">
+      1. 圈数；
+      2. 准备翻跟斗时间（ms）
+      3. 翻跟斗次数</td>
     <td data-th="备注">执行全套翻跟斗 = 准备 + 翻跟斗，重复n次</td>
   </tr>
 </table>
@@ -156,18 +159,18 @@ minute: 5
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
+    <th>名称</th>
+    <th>描述</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">准备翻跟斗</td>
+    <td data-th="名称">准备翻跟斗</td>
     <td data-th="参数描述">准备时间（ms）</td>
     <td data-th="备注">准备翻跟斗</td>
   </tr>
   <tr>
-    <td data-th="报文名称">翻跟斗</td>
-    <td data-th="参数描述">无</td>
+    <td data-th="名称">翻跟斗</td>
+    <td data-th="参数">无</td>
     <td data-th="备注">执行翻跟斗</td>
   </tr>
 </table>
@@ -180,24 +183,23 @@ minute: 5
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
+    <th>名称</th>
+    <th>描述</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">准备翻跟斗</td>
-    <td data-th="参数描述">准备时间（ms）</td>
+    <td data-th="名称">准备翻跟斗</td>
+    <td data-th="参数">准备时间（ms）</td>
     <td data-th="备注">准备翻跟斗</td>
   </tr>
   <tr>
-    <td data-th="报文名称">翻跟斗</td>
-    <td data-th="参数描述">无</td>
+    <td data-th="名称">翻跟斗</td>
+    <td data-th="参数">无</td>
     <td data-th="备注">执行翻跟斗</td>
   </tr>
   <tr>
-    <td data-th="报文名称">卖乖</td>
-    <td data-th="Function Name">act cute</td>
-    <td data-th="参数描述">卖乖时间（ms）</td>
+    <td data-th="名称">卖乖</td>
+    <td data-th="描述">卖乖时间（ms）</td>
     <td data-th="备注">0</td>
   </tr>
 </table>
@@ -231,13 +233,13 @@ for (n) {
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
+    <th>名称</th>
+    <th>描述</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">上报充电信息</td>
-    <td data-th="参数描述">1. 充电时候的姿态；2. 电流；3. 电压</td>
+    <td data-th="名称">上报充电信息</td>
+    <td data-th="描述">1. 充电时候的姿态；2. 电流；3. 电压</td>
     <td data-th="备注"></td>
   </tr>
 </table>
@@ -246,26 +248,26 @@ for (n) {
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
+    <th>名称</th>
+    <th>描述</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">上报充电信息</td>
-    <td data-th="参数描述">1. 电流；2. 电压</td>
+    <td data-th="名称">上报充电信息</td>
+    <td data-th="描述">1. 电流；2. 电压</td>
     <td data-th="备注"></td>
   </tr>
 </table>
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
+    <th>名称</th>
+    <th>描述</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">上报姿态信息</td>
-    <td data-th="参数描述">1. 身体姿态；2. 耳朵姿态；3. 四肢姿态</td>
+    <td data-th="名称">上报姿态信息</td>
+    <td data-th="描述">1. 身体姿态；2. 耳朵姿态；3. 四肢姿态</td>
     <td data-th="备注"></td>
   </tr>
 </table>
@@ -282,26 +284,26 @@ for (n) {
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
+    <th>名称</th>
+    <th>描述</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">开始行走</td>
-    <td data-th="参数描述">行走距离</td>
+    <td data-th="名称">开始行走</td>
+    <td data-th="描述">行走距离</td>
     <td data-th="备注"></td>
   </tr>
 </table>
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
+    <th>名称</th>
+    <th>描述</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">上报姿态信息</td>
-    <td data-th="参数描述">1. 身体姿态；2. 耳朵姿态；3. 四肢姿态</td>
+    <td data-th="名称">上报姿态信息</td>
+    <td data-th="描述">1. 身体姿态；2. 耳朵姿态；3. 四肢姿态</td>
     <td data-th="备注"></td>
   </tr>
 </table>
@@ -310,15 +312,15 @@ for (n) {
 
 <table class="rwd-table">
   <tr>
-    <th>报文名称</th>
-    <th>参数描述</th>
-    <th>执行结果</th>
+    <th>名称</th>
+    <th>描述</th>
+    <th>结果</th>
     <th>备注</th>
   </tr>
   <tr>
-    <td data-th="报文名称">开始行走</td>
-    <td data-th="参数描述">行走距离</td>
-    <td data-th="执行结果">1. 执行结果（成功|失败）；2.失败原因</td>
+    <td data-th="名称">开始行走</td>
+    <td data-th="描述">行走距离</td>
+    <td data-th="结果">1. 执行结果（成功|失败）；2.失败原因</td>
     <td data-th="备注"></td>
   </tr>
 </table>
