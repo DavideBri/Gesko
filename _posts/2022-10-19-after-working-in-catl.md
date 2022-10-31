@@ -3,20 +3,20 @@ title: "年终总结"
 date:   2022-10-31
 tags:
   - 杂文
-published: false
+published: true
 ---
-<p align='center'>这一年在CATL</p>
+<p align='center'>这一年在CATL，有幸</p>
 <p align='center'>...</p>
 
-<div align='center' >产品</div>
+<div align='center' >参与开发产品</div>
 <div align='center' ><font size='70'>3</font>款</div>
 <p align='center'>...</p>
 
-<div align='center' >国标，行标，地标，团标</div>
+<div align='center' >参与制定国标，行标，地标，团标</div>
 <div align='center' ><font size='70'>8</font>项</div>
 <p align='center'>...</p>
 
-<div align='center' >发明专利，国际发明专利，外观专利，实用新型专利</div>
+<div align='center' >贡献发明专利，国际发明专利，外观专利，实用新型专利</div>
 <div align='center' ><font size='70'>31</font>枚</div>
 <p align='center'>...</p>
 <!-- 
@@ -29,7 +29,13 @@ published: false
 <p align='center'>今天是在CATL最后一天</p>
 <p align='center'>...</p>
 
+提出离职后的最后一个月时间里，无数次感慨，这样的团队是如此之有斗志，若不是身背其ta责任，这会是一个非常值得付出的行业和岗位。
+
 anyway，开始迎接新的生活。
+
+下一家公司的产品是这个：
+
+
 
 <!-- 序号	案号	名称	申请号	申请日	案件类型	申请类型	案件状态	提案部门
 1	P2022040273WO1	电池换电的方法、装置、站控系统和换电站	PCT/CN2022/104517	2022-07-08	专利	发明	受理	CAES(Virtual)
