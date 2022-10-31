@@ -33,7 +33,7 @@ published: true
 
 anyway，开始迎接新的生活。
 
-下一家公司的产品是这个：
+下一家公司的产品是这个（需翻墙）：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nQnleHnbzu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
