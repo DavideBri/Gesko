@@ -9,9 +9,9 @@ tags:
 
 做了好几天饭，把海拉鲁世界的菜单都做了个遍，海陆空烧烤，禽肉浓汤，。。。
 
-![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/1.png)
+> ![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/1.png)
 
-总结2022年，能留下来的东西不多，满脑子全是娃，我想小朋友一定是统治了世界的外星生物，不然为什么每个人的审美，抵抗力，手机相册都在娃面前如此不堪一击。
+总结2022年，能留下来的东西不多，满脑子全是娃，我有一个能自圆其说的荒诞想法，小朋友一定是外星人统治世界的秘密武器，不然为什么每个人的审美，抵抗力，手机相册都在娃面前如此不堪一击。。。。最后这个荒诞想法中止在这样的设定之下：DNA就是一切的幕后始作俑者，ta入侵地球操纵着一切。
 
 ### 听
 
@@ -19,7 +19,7 @@ tags:
 
 这几期很好，推荐给所有看到的人。
 
-![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/2.png)
+> ![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/2.png)
 
 其它懒得找手机截图了，有人看有人问再说吧~不自作多情了。
 
@@ -40,29 +40,30 @@ tags:
 
 ### 读
 
-新年的计划是，信息咨询转战英语世界，尝试阅读英语世界的书和文章。中文世界的信息过于混淆，内容质量也不高，确切的说，内容噪声过多，掩盖了优秀的内容，需要过多精力过滤噪声。
+新年的计划是，信息咨询转战英语世界，尝试阅读英语世界的书和文章。中文世界的信息过于混淆，内容质量也不高，确切的说，内容噪声过多，掩盖了优秀的内容，需要过多精力过滤噪声。恰好，第三本就是《噪声：人类一败涂地》
 
 精挑细选了三本书希望能够入门:
 
 - American Prometheus
 
-![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/3.png)
+> ![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/3.png)
 
 - The McKinsey Edge
 
-![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/4.png)
+> ![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/4.png)
 
 - Noise: A Flaw in Human Judgment
 
-![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/5.png)
+> ![Image]({{ site.url }}/images/post_images/2023-1-27-everything_about_2022/5.png)
 
 这也是很无奈的选择，因为以上三本书想看，但是没有好翻译，或者根本没有翻译。
-Oh no, 挑书的时间就够我看几章的了。。。
 
 ### 写
 
-最近fo了一个up主👇，他模仿马尔克斯写文章很有意思，不禁自省还要多久，我才能养成自己的写作风格，或许我应该有所改变，不要太在意读者，想到啥就写啥，再写个几十年，可能就有风格了。挺好。
+22年fo了一个up主👇，他模仿马尔克斯写文章很有意思，不禁自省还要多久，我才能养成自己的写作风格，或许我应该有所改变，不要太在意读者，想到啥就写啥，再写个几十年，可能就有风格了。挺好。
 
 <iframe src="//player.bilibili.com/player.html?aid=735422301&bvid=BV1mD4y1H7tZ&cid=968521597&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-最近搞了个apple pencil，不停的在解锁新用法。
+最近搞了个apple pencil，想要不停的解锁新用法的过程中，才发现最大的limitation 不是技术，而是是自己的书法（姑且没找到更好的词），由于文书过于潦草，导致人工智能无法识别，又或者连偏旁部首都忘记怎么写了。
+
+这就是关于2022年的一切吧？或者是这个时间点的我能想到的一切。
