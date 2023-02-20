@@ -1,5 +1,5 @@
 ---
-title: "当我们不再理解世界"
+title: "当我们不再理解世界 - 读后感"
 create_time: 2023-02-16 10:19
 tags:
 - book
@@ -31,7 +31,7 @@ New Yorker 插图👇
 
 作者究竟想表达什么？我猜，无论是哪条故事线，作者都在表达一种矛盾和无法理解的情绪。
 
-德国犹太化学家弗里茨·哈伯（Fritz Haber），他开发了一种从空气中提取氮的方法，用作肥料，这一创新为他赢得了诺贝尔奖，通过避免饥荒，可能挽救了数亿人的生命，但他也开创了氯气的军事用途，一种化学武器造成了第一次世界大战中一些最可怕的恐怖事件。另一种氰化氢农药则是Zyklon B的前身。
+> Among the main figures is Fritz Haber, a German Jewish chemist who developed a process to obtain ammonia from nitrogen in the air, for use as fertilizer—an innovation that won him the Nobel Prize and, by staving off famine, has probably saved the lives of hundreds of millions of people—but who also pioneered the military use of chlorine gas, a chemical weapon responsible for some of the worst horrors of the First World War, as well as a hydrogen-cyanide pesticide that was a direct forerunner of Zyklon B.
 
 最后一则故事里，世界当时上最伟大的科学家聚集一起，参加了索尔维会议。然而这个会议却确定了这个世界最根本的规则是立足于未知和随机的。会议上，就连爱因斯坦也无法反驳哥本哈根学派，感慨道“_Jedenfalls bin ich überzeugt, daß der nicht würfelt._” [^2]
 
@@ -44,5 +44,5 @@ _original source/found:_
 
 _reference:_
 
-[^1]: https://www.newyorker.com/magazine/2021/09/13/a-cautionary-tale-about-science-raises-uncomfortable-questions-about-fiction
-[^2]: https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe
+[^1]: [A Cautionary Tale About Science Raises Uncomfortable Questions About Fiction](https://www.newyorker.com/magazine/2021/09/13/a-cautionary-tale-about-science-raises-uncomfortable-questions-about-fiction)
+[^2]: [上帝不掷骰子](https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe)
