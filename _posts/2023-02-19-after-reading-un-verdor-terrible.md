@@ -44,4 +44,4 @@ _original source/found:_
 _reference:_
 
 [^1]: https://www.newyorker.com/magazine/2021/09/13/a-cautionary-tale-about-science-raises-uncomfortable-questions-about-fiction
-[^2]: https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe#:~:text=From%20a%20quotation%20of%20Albert,Copenhagen%20interpretation%20of%20quantum%20mechanics.
+[^2]: https://en.wiktionary.org/wiki/God_does_not_play_dice_with_the_universe
