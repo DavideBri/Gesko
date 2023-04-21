@@ -21,16 +21,13 @@ Integration test is to test whether many separately developed modules work toget
 -   require live versions of all services, requiring substantial test environment and network access
 -   exercise code paths through all services, not just code responsible for interactions
 
-#### Why
--   run integration test as earlier as possible
--   practical and executable for every developers
--   environment isolation ↔︎ limited in scope
--   improve quality
--   improve effeciency
-
-### Container Test
+#### Why Container Test
 https://www.testcontainers.org/
 Test container allows you to combine the benefits of unit test with the benefits of containerization. It starts containers for you to run your Integration tests as a Unit Test.
+
+-   run integration test as early as possible
+-   practical and executable for every developer
+-   environment isolation ↔︎ limited in scope
 
 > ![Image]({{ site.url }}/images/post_images/2023-04-21-integration-test-with-test-container/2.png)
 
