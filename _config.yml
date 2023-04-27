@@ -15,8 +15,10 @@ author:
   bio: just a minimalist, personal blog
   userpicture: 
   username: # general username
-  github: # github username
+  github: DavideBri # github username
   twitter: # twitter username
+  mastodon: # mastodon profile (ex. mastodon.social/@my_username)
+  linkedin: # linkedin profile
   email: your-email@email.com # email adress
 
 # Font Settings
