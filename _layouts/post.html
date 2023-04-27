@@ -37,4 +37,7 @@ layout: default
 
   </nav>
 </section>
-{% include disqus.html %}
+
+{% if site.comments-enabled %}
+  {% include disqus.html %}
+{% endif %}
