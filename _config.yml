@@ -1,17 +1,17 @@
 site: JakobHe.com
-title: JakobHe's
+title: JakobHe's Blog
 greetings: "JakobHe's Blog"
 description: >-
-  "Hi There!"
+  "v1.0.0"
 lang: en-US
-timezone:  Asia/Shanghai
+timezone: Asia/Shanghai
 repo: https://github.com/leweii/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 utteranc-identifier: leweii/Gesko # replace with your disqus shortname
 
 author:
   name: JakobHe
-  bio: "Hi There!"
+  bio: "enjoy life"
   userpicture: /images/avatar/0.jpg
   username: JakobHe # general username
   github: leweii # github username
@@ -45,10 +45,10 @@ exclude:
   - LICENSE.md
   - README.md
   - CONTRIBUTING.md
-  
+
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments: [ "<!-- ", " -->" ]
 
 sass:
   sass_dir: _sass
@@ -66,28 +66,25 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
 
 relative_links:
-  enabled:     true
+  enabled: true
   collections: false
 
 
