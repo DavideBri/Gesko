@@ -79,5 +79,5 @@ google 搜索是对现有知识进行检索，
 GPT 的方式解决问题，技巧在于出题人要要避免多解，我们提问给AI的需求描述也要把定量，变量描述清晰，这样AI的解答能够趋向于真理。
 
 #### 最后
-AI从很fundamental 的方面change the way of how we solve problem。本人非常想从可落地，和身边的难题着手，利用AI来出解决方案。任何读到这里的小伙伴们，咱们多多交流！
+AI从很fundamental 的方面change the way of how we solve problem。本人非常想从可落地，和身边的难题着手，利用AI来出解决方案。🙆‍♂️读到这里的小伙伴们，咱们多多交流！
 
