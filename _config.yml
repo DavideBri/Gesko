@@ -7,7 +7,7 @@ lang: en-US
 timezone:  Europe/Rome
 repo: https://github.com/DavideBri/Gesko # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
-discus-identifier: powex # replace with your disqus shortname
+discus-identifier: # replace with your disqus shortname
 comments-enabled: false # true to enable disqus comments, false to hide them
 
 author:
@@ -17,7 +17,7 @@ author:
   username: # general username
   github: DavideBri # github username
   twitter: # twitter username
-  mastodon: # mastodon profile (ex. mastodon.social/@my_username)
+  mastodon: hackyderm.io/@davidebri # mastodon profile (ex. mastodon.social/@my_username)
   linkedin: # linkedin profile
   email: your-email@email.com # email adress
 
